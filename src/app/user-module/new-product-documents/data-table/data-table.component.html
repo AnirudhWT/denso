@@ -1,0 +1,73 @@
+<p-table #turboTable [value]="dataList">
+    <ng-template pTemplate="header" let-columns>
+        <tr>
+            <th>
+                <div class="table-column-heading">#</div></th>
+            <th>
+                <div class="heading-container">
+                    <div class="table-column-heading">
+                        Process Step
+                    </div>
+                    <div class="heading-sorter">
+                        <i class="fas fa-chevron-up" (click)="sortRecords('asc')"></i>
+                        <i class="fas fa-chevron-down" (click)="sortRecords('dsc')"></i>
+                    </div>
+                </div>
+            </th>
+            <th>
+                <div class="heading-container">
+                    <div class="table-column-heading">
+                        Type
+                    </div>
+                    <div class="heading-sorter">
+                        <i class="fas fa-chevron-up" (click)="sortRecords('asc')"></i>
+                        <i class="fas fa-chevron-down" (click)="sortRecords('dsc')"></i>
+                    </div>
+                </div>
+            </th>
+            <th>
+                <div class="heading-container">
+                    <div class="table-column-heading">
+                        Count
+                    </div>
+                    <div class="heading-sorter">
+                        <i class="fas fa-chevron-up" (click)="sortRecords('asc')"></i>
+                        <i class="fas fa-chevron-down" (click)="sortRecords('dsc')"></i>
+                    </div>
+                </div>
+            </th>
+            <th>
+                <div class="heading-container">
+                    <div class="table-column-heading">
+                        Machine Name
+                    </div>
+                    <div class="heading-sorter">
+                        <i class="fas fa-chevron-up" (click)="sortRecords('asc')"></i>
+                        <i class="fas fa-chevron-down" (click)="sortRecords('dsc')"></i>
+                    </div>
+                </div>
+            </th>
+            <th>
+                <div class="heading-container">
+                    <div class="table-column-heading">
+                        Machine ops Docs
+                    </div>
+                    <div class="heading-sorter">
+                        <i class="fas fa-chevron-up" (click)="sortRecords('asc')"></i>
+                        <i class="fas fa-chevron-down" (click)="sortRecords('dsc')"></i>
+                    </div>
+                </div>
+            </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowData let-rowIndex="rowIndex">
+        <tr>
+            <th><div class="row-data">{{rowIndex+1}}</div></th>
+            <th><div class="row-data">{{rowData.processstep}}</div></th>
+            <th><div class="row-data">{{rowData.type}}</div></th>
+            <th><div class="row-data">{{rowData.count}}</div></th>
+            <th><div class="row-data">{{rowData.machinname}}</div></th>
+            <th><div class="row-data">{{rowData.machinedoc}}</div></th>
+        </tr>
+    </ng-template>
+</p-table>

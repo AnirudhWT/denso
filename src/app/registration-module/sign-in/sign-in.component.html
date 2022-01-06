@@ -1,0 +1,71 @@
+
+    <div class="p-grid">
+        <div class="p-col-7 signin-box">
+            <div class="p-d-flex p-flex-column p-jc-center p-ai-center" style="height: inherit;">
+                <div class="logo-container">
+                    <img width="100%" src="../../../../assets/images/registration/logo.svg" alt="logo">
+                    <img width="50%" src="../../../../assets/images/registration/sub-logo.svg" alt="sub-logo">
+                </div>
+                <div class="welcome-text">
+                    Welcome Back !
+                </div>
+                <div class="user-instruction">
+                    Enter your username & password to sign in
+                </div>
+                <form [formGroup]="signInForm" novalidate (ngSubmit)="submitSignIn()">
+                    <div class="login-fields-username">
+                        <div>
+                            <label class="form-field-label">Username
+                            </label>
+                            
+                        </div>
+                        <input  class="default-input" formControlName="userName" placeholder="Your Username"
+                            type="text"  [ngClass]="submitted ?'ng-dirty':''" />
+                        <div *ngIf="submitted && signInForm.controls['userName'].invalid || signInForm.controls['userName'].invalid && (signInForm.controls['userName'].dirty || signInForm.controls['userName'].touched)"
+                            class="p-error">
+                            <div *ngIf="signInForm.controls['userName'].errors?.required">
+                                Error
+                            </div>
+                            <div *ngIf="signInForm.controls['userName'].errors?.email">
+                              Error  
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label class="form-field-label">Password
+                            </label>
+                            
+                        </div>
+                        <p-password class="default-input" placeholder="Your Password" type="password" pInputText formControlName="password"
+                            [ngClass]="submitted ?'ng-dirty':''" p-password [toggleMask]="true" [feedback]="false"></p-password>
+                        <div *ngIf="submitted && signInForm.controls['password'].invalid || signInForm.controls['password'].invalid && (signInForm.controls['password'].dirty || signInForm.controls['password'].touched)"
+                            class="p-error">
+                            <div *ngIf="signInForm.controls['password'].errors?.required">
+                                Error
+                            </div>
+                            <div *ngIf="signInForm.controls['password'].value && signInForm.controls['password'].errors && signInForm.controls['password'].errors.notValid">
+                                Error
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button pButton pRipple type="submit" class="p-button-raised login-fields-btn">
+                            Sign in
+                        </button>
+                    </div>
+                </form>
+                <div class="no-account-text">
+                    Don’t have an account ? 
+                    <span class="get-in-touch">
+                        <a class="cursor" [routerLink]="['/signup']">Get in touch .</a></span>
+                </div>
+                <div class="forgot-password-text">
+                    forgot password ?
+                </div>
+            </div>
+        </div>
+        <div class="p-col-5 signin-image">
+            test
+        </div>
+    </div>

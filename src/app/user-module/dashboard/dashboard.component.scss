@@ -1,0 +1,155 @@
+.dashboard-box {
+    padding: 2.08vw 2.65vw;
+}
+
+.heading {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.09vw;
+    line-height: 3.69vw;
+    color: #141e4f;
+}
+
+.stat-box {
+    width: 9.89vw;
+    height: 9.89vw;
+    background: #eef2f7;
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .stat-number {
+        font-weight: bold;
+        font-size: 4.42vw;
+        line-height: 5.31vw;
+        color: #4c5567;
+        text-align: center;
+    }
+    .stat-detail {
+        font-weight: bold;
+        font-size: 0.93vw;
+        line-height: 1.14vw;
+        color: #748094;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    i {
+        font-size: 1.87vw;
+        line-height: 1.87vw;
+    }
+}
+
+.selected-stat {
+    background: #141e4f;
+    .stat-number {
+        color: #ffffff;
+    }
+    .stat-detail {
+        color: #ffffff;
+    }
+    i {
+        color: #ffffff;
+    }
+}
+
+.iconic {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+button {
+    border: none;
+    background-color: #dc0032;
+    width: 11.92vw;
+    height: 2.7vw;
+    padding: 0 1vw;
+    .add-process {
+        display: flex;
+        align-items: center;
+    
+        font-family: "Helvetica Neue LT Pro";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.83vw;
+        line-height: 1.71vw;
+        color: #ffffff;
+    }
+    .seperater{
+        margin : 0 .5vw;
+    }
+}
+
+.scroll{
+    overflow: auto;
+    height: 85%;
+}
+.scroll::-webkit-scrollbar {
+    width: .5vw;
+ }
+ 
+ .scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #EEF2F7;
+    border: none;
+ }
+ 
+ .scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #CDD5DF;
+ }
+
+
+  .process-brief-box{
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:.5vw .98vw ;
+    height: 4.5vw;
+    margin: .78vw;
+  }
+  .name-created-date{
+      display: flex;
+      align-items: center;
+      font-family: 'Helvetica Neue LT Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: .83vw;
+        line-height: .98vw;
+        color: #A3AEBF;
+      .process-name{
+        font-weight: 500;
+        font-size: .93vw;
+        line-height: 1.14vw;
+        color: #748094;
+      }
+      i{
+        font-size: 2.5vw;
+        line-height: 2.06vw;
+        color: #748094;
+        margin-right: .78vw;
+      }
+  }
+  .product-name-creatdate,.category-doc-num{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 2.5vw;
+  }
+  .category-doc-num{
+    font-family: 'Helvetica Neue LT Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .83vw;
+    line-height: .98vw;
+    color: #A3AEBF;
+    text-align: right;
+  }
+  
+  

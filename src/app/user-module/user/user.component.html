@@ -1,0 +1,14 @@
+<div class="user-layout">
+<app-header></app-header>
+<div class="screen-route-info">
+    <div *ngIf="items?.length > 0">
+        <p-breadcrumb [model]="items" [home]="home"></p-breadcrumb>
+    </div>
+    <div *ngIf="items?.length == 0" class="p-d-flex p-ai-center">
+        <i class="pi pi-microsoft"></i>
+        <span class="home-text">Home</span>
+    </div>
+</div>
+    <router-outlet></router-outlet>
+</div>
+

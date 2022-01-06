@@ -1,0 +1,123 @@
+.heading {
+    i {
+        color: #748094;
+        font-size: 1.04vw;
+        margin-right: 1vw;
+    }
+}
+.header {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.04vw;
+    line-height: 2.08;
+    color: #748094;
+}
+.close-icon {
+    font-size: 1.72vw;
+    color: #d54c46;
+}
+.filename {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.72vw;
+    line-height: 1.71vw;
+    color: #748094;
+}
+.confirm-upload {
+    background-color: #00c839;
+    border: none;
+    padding: 0.46vw 0.72vw;
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #ffffff;
+    margin-bottom: 1.04vw;
+    .confirm-icon {
+        color: white;
+        margin-right: 0.52vw;
+        font-size: 0.83vw;
+    }
+}
+.upload-info {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 0.98vw;
+    text-align: center;
+    color: #a3aebf;
+}
+.uploadicon{
+    font-size: 0.83vw;
+    color: #a3aebf;
+}
+.remove-icon {
+    color: #ff0000;
+    font-size: 1.2vw;
+}
+.showfilename{
+display: block;
+}
+.hidefilename{
+    visibility: hidden;
+}
+form{
+    width: -webkit-fill-available;
+}
+:host ::ng-deep {
+    .p-fileupload {
+        text-align: center;
+    }
+    .p-fileupload-choose:not(.p-disabled):active {
+        background: none;
+        color: #0b2257;
+        border-color: red;
+    }
+    .p-fileupload-choose:not(.p-disabled):hover {
+        background: none;
+        color: #0b2257;
+        border-color: red;
+    }
+    .p-fileupload-advanced {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .p-fileupload-content {
+        border: none;
+        padding: 7vw 5vw;
+        border: 1px dashed #a3aebf;
+    }
+    .p-fileupload-row {
+        display: none;
+    }
+    .p-fileupload-choose {
+        background: none;
+        border: none;
+        padding: 0;
+        font-family: "Helvetica Neue LT Pro";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.83vw;
+        line-height: 0.98vw;
+        text-align: center;
+        color: #a3aebf;
+        letter-spacing: 0px;
+        text-decoration: underline;
+    }
+    .p-fileupload-buttonbar {
+        background: none;
+        border: none;
+        position: absolute;
+        top: 50%;
+        right: 43%;
+        z-index: 111;
+    }
+    .p-component 
+    .p-autocomplete-dd{
+        width: -webkit-fill-available;
+    }
+}

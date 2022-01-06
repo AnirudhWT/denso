@@ -1,0 +1,46 @@
+.list-viewer-container{
+    background: #EEF2F7;
+    padding: 1.19vw 1.40vw;
+}
+.heading-icon{
+    font-size: 1.5vw;
+    margin-right: .46vw;
+}
+.listHeading{
+    font-family: 'Helvetica Neue LT Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.04vw;
+    line-height: 2.5vw;
+    color: #2F3747;
+}
+
+.search-input{
+    padding: .5vw;
+    border: none;
+}
+.info-pallets{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 1vw;
+    padding-right: 1.5vw;
+    .complete-pallete-text, .pending-pallete-text{
+      font-family: 'Helvetica Neue LT Pro';
+      font-style: normal;
+      font-weight: 400;
+      font-size: .72vw;
+      line-height: .88vw;
+      color: #A3AEBF;
+      margin: 0 .5vw;
+    }
+    .complete-pallete,.pending-pallete{
+        padding: .25vw .5vw;
+    }
+    .pending-pallete{
+      background: #EE8885;
+    }
+    .complete-pallete{
+      background: #82D097;
+    }
+}

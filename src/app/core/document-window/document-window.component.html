@@ -1,0 +1,12 @@
+<div
+    class="side-nav-container  {{ pdfOpened == false ? 'hidden-nav' :''}}">
+    <i class="cursor pi  {{pdfOpened == false ? 'pi-arrow-circle-left' :'pi-arrow-circle-right'}}"
+        (click)="toggleNav()"></i>
+        <div class="content-box">
+            <div class="scroll">
+                <ng-container
+                *ngTemplateOutlet="scrollingContent"></ng-container>
+            </div>
+            
+    </div>
+</div>

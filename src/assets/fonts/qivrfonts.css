@@ -1,0 +1,24 @@
+/* 75 Bold */
+@font-face {
+  font-family: Helvetica Neue LT Pro;
+  font-weight: 700; 
+  src: url("./HelveticaNeueLTPro-Bd.otf") format("opentype"); 
+}
+
+/* 65 medium */
+@font-face {
+  font-family: Helvetica Neue LT Pro;
+  font-weight: 500; 
+  src: url("./HelveticaNeueLTPro-Md.otf") format("opentype");
+}
+
+
+/* 55 Roman medium */
+@font-face {
+  font-family: Helvetica Neue LT Pro;
+  font-weight: 400; 
+  src: url("./HelveticaNeueLTPro-Roman.otf") format("opentype");
+}
+
+
+

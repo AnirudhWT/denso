@@ -1,0 +1,66 @@
+<p-accordion>
+    <p-accordionTab>
+        <ng-template pTemplate="header">
+            <div class="align-space-between">
+                <div class="align-center">
+                    <label class="accordion-label">Process Documets</label>
+                </div>
+                <div>
+                    <i class="pi pi-fw pi-chevron-down" style="font-size: 1.04vw; color: '#0B2257' "></i>
+                </div>
+            </div>
+        </ng-template>
+        <div class="template-clause" pDraggable="products" (onDragStart)="dragStart($event,item)" (onDragEnd)="dragEnd($event)"  *ngFor="let item of allFiles">
+          {{item.name}}
+          </div>
+    </p-accordionTab>
+    <p-accordionTab>
+        <ng-template pTemplate="header">
+            <div class="align-space-between">
+                <div class="align-center">
+                    <label class="accordion-label">Machine Documets</label>
+                </div>
+                <div>
+                    <i class="pi pi-fw pi-chevron-down" style="font-size: 1.04vw; color: '#0B2257' "></i>
+                </div>
+            </div>
+        </ng-template>
+    </p-accordionTab>
+    <p-accordionTab>
+        <ng-template pTemplate="header">
+            <div class="align-space-between">
+                <div class="align-center">
+                    <label class="accordion-label">Product Documets</label>
+                </div>
+                <div>
+                    <i class="pi pi-fw pi-chevron-down" style="font-size: 1.04vw; color: '#0B2257' "></i>
+                </div>
+            </div>
+        </ng-template>
+    </p-accordionTab>
+    <p-accordionTab>
+        <ng-template pTemplate="header">
+            <div class="align-space-between">
+                <div class="align-center">
+                    <label class="accordion-label">Factory Documets</label>
+                </div>
+                <div>
+                    <i class="pi pi-fw pi-chevron-down" style="font-size: 1.04vw; color: '#0B2257' "></i>
+                </div>
+            </div>
+        </ng-template>
+    </p-accordionTab>
+    <p-accordionTab>
+        <ng-template pTemplate="header">
+            <div class="align-space-between">
+                <div class="align-center">
+                    <label class="accordion-label">Resources Documets</label>
+                </div>
+                <div>
+                    <i class="pi pi-fw pi-chevron-down" style="font-size: 1.04vw; color: '#0B2257' "></i>
+                </div>
+            </div>
+        </ng-template>
+    </p-accordionTab>
+
+</p-accordion>

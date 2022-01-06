@@ -1,0 +1,22 @@
+<div class="list-viewer-container p-d-flex p-jc-between p-flex-column" [style.height]="listHeight">
+    <div>
+        <div class="p-d-flex p-jc-between p-ai-center">
+            <div class="p-d-flex p-ai-center">
+                <i class="{{headingIcon}} heading-icon"></i>
+                <span class="listHeading">{{labelheading}} - {{status}}</span>
+                
+            </div>
+            <div class="search-box">
+                    <input class="search-input" type="text" pInputText placeholder="Search" />
+            </div>
+        </div>
+        <ng-container
+        *ngTemplateOutlet="scrollingContent"></ng-container>
+    </div>
+    <div *ngIf="showPallets == true" class="info-pallets">
+        <div class="complete-pallete-text">Completed</div>
+        <div class="complete-pallete"></div>
+        <div class="pending-pallete-text">Pending</div>
+        <div class="pending-pallete"></div>
+    </div>
+</div>

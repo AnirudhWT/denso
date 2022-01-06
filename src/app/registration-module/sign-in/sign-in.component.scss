@@ -1,0 +1,90 @@
+.signin-box,
+.signin-image {
+    height: 100vh;
+    padding: 0;
+}
+.logo-container {
+    text-align: right;
+    width: 18.54vw;
+}
+.welcome-text {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.56vw;
+    line-height: 1.87vw;
+    color: #1b202b;
+    margin-bottom: 0.46vw;
+}
+.user-instruction {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #a3aebf;
+    margin-bottom: 0.57vw;
+}
+
+// form
+.form-field-label {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #4c5567;
+}
+.password-style,
+.default-input {
+    width: 17.96vw;
+    background: #ffffff;
+    border: 1px solid #cdd5df;
+    box-sizing: border-box;
+    height: 2.5vw;
+    padding: 0.83vw 0.31vw;
+    margin-bottom: 0.57vw;
+}
+:host ::ng-deep {
+    .p-password-input,.p-inputwrapper  {
+        width: 17.96vw;
+        margin-bottom: 0.57vw;
+    }
+}
+.login-fields-btn {
+    background-color: #141e4f;
+    border: none;
+    width: 17.96vw;
+    height: 2.5vw;
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 0.46vw;
+    
+}
+.no-account-text {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+}
+.get-in-touch {
+    a {
+        text-decoration: none;
+    }
+    font-weight: bold;
+    color: #141e4f;
+}
+.forgot-password-text {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #a3aebf;
+}

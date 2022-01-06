@@ -1,0 +1,18 @@
+.country-item {
+    display: flex;
+    align-items: baseline;
+    font-family: 'Helvetica Neue LT Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #748094;
+    text-transform: capitalize;
+    i {
+        margin-right: 0.36vw;
+    }
+}
+.notification-icon{
+    margin-right: 1vw;
+    font-size: 1.04vw;
+}

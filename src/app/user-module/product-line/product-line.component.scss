@@ -1,0 +1,86 @@
+.dashboard-box {
+    padding: 2.08vw 2.65vw;
+}
+
+.heading {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.09vw;
+    line-height: 3.69vw;
+    color: #141e4f;
+}
+
+button {
+    border: none;
+    background-color: #dc0032;
+    width: 11.92vw;
+    height: 2.7vw;
+    padding: 0 1vw;
+    .add-process {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: "Helvetica Neue LT Pro";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.83vw;
+        line-height: 1.71vw;
+        color: #ffffff;
+    }
+    i{
+        font-size: .93vw;
+        -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    }
+}
+
+.process-brief-box{
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:.5vw .98vw ;
+    height: 4.5vw;
+    margin: .78vw;
+  }
+  .name-created-date{
+      display: flex;
+      align-items: center;
+      font-family: 'Helvetica Neue LT Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: .83vw;
+        line-height: .98vw;
+        color: #A3AEBF;
+      .process-name{
+        font-weight: 500;
+        font-size: .93vw;
+        line-height: 1.14vw;
+        color: #748094;
+      }
+      i{
+        font-size: 2.5vw;
+        line-height: 2.06vw;
+        color: #748094;
+        margin-right: .78vw;
+      }
+  }
+  .product-name-creatdate,.category-doc-num{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 2.5vw;
+  }
+  .category-doc-num{
+    font-family: 'Helvetica Neue LT Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .83vw;
+    line-height: .98vw;
+    color: #A3AEBF;
+    text-align: right;
+  }

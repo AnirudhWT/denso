@@ -1,0 +1,87 @@
+<div class="p-grid dashboard-box">
+    <!-- Heading -->
+    <div class="p-col-6">
+        <div class="heading">
+            <i class="fas fa-cube"></i>
+            Product Line 1
+        </div>
+    </div>
+
+    <!-- New Product Button -->
+    <div class="p-col-6 p-text-right">
+        <button class="cursor" (click)="goToExploreDocuments()">
+            <div class="add-process">
+                <i class="pi pi-download"></i>
+                |
+                <div>
+                    Explore Product Line
+                </div>
+            </div>
+        </button>
+    </div>
+
+    <!-- Approved -->
+
+    <div class="p-col-6 ">
+        <app-list-viewer [scrollingContent]="approvedList" labelheading="Documents"
+            [status]="'Approved'" [showPallets]=false listHeight ="29vw" headingIcon="far fa-check-circle">
+            <ng-template #approvedList>
+                <div class="scroll">
+                    <div  *ngFor="let item of liveDashboardServices.getCurrentProductData()">
+                        <div *ngIf="item.completed == true"  class="process-brief-box">
+                            <div class="name-created-date">
+                                <div>
+                                    <i class="fas fa-outdent"></i>
+                                </div>
+                                <div class="product-name-creatdate">
+                                    <span class="process-name">Prodcut Line 1</span>
+                                    <span>Created On : 12-11-2021</span>
+                                </div>
+
+                            </div>
+                            <div class="category-doc-num">
+                                <span>Total Documents : 8</span>
+                                <span>Doc. Category: Machine</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </app-list-viewer>
+    </div>
+    
+    <!-- Work in progress -->
+
+    <div class="p-col-6 ">
+        <app-list-viewer [scrollingContent]="approvedList" labelheading="Documents"
+            status="WIP" [showPallets]=true listHeight ="29vw" headingIcon="far fa-check-circle">
+            <ng-template #approvedList>
+                <div class="scroll">
+                    <div  *ngFor="let item of liveDashboardServices.getCurrentProductData()">
+                        <div *ngIf="item.completed == true"  class="process-brief-box">
+                            <div class="name-created-date">
+                                <div>
+                                    <i class="fas fa-outdent"></i>
+                                </div>
+                                <div class="product-name-creatdate">
+                                    <span class="process-name">Prodcut Line 1</span>
+                                    <span>Created On : 12-11-2021</span>
+                                </div>
+
+                            </div>
+                            <div class="category-doc-num">
+                                <circle-progress [percent]=80 [radius]=20 [backgroundPadding]=7 [outerStrokeWidth]=4
+                                    [innerStrokeWidth]=4 [space]=-4 [outerStrokeColor]="'#82D097'"
+                                    [innerStrokeColor]="'#EE8885'" [showBackground]=true [title]="['']"
+                                    [titleFontSize]="'12'" [subtitleFontSize]="'12'" [animateTitle]=false
+                                    [showUnits]=false [clockwise]=false [animationDuration]=1000
+                                    (subtitleFormat)="getper(60)">
+                                </circle-progress>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </app-list-viewer>
+    </div>
+</div>

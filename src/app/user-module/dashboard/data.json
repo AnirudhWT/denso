@@ -1,0 +1,106 @@
+{
+    "productline":[
+        {
+            "name":"Prodcut Line 1",
+            "createdDate":"12-11-2021",
+            "noOfDocs":8,
+            "approvedDocs":8,
+            "documentCategory":"machine",
+            "completed":true
+        },
+        {
+            "name":"Prodcut Line 2",
+            "createdDate":"12-11-2021",
+            "noOfDocs":8,
+            "approvedDocs":8,
+            "documentCategory":"product",
+            "completed":true
+        },
+        {
+            "name":"Prodcut Line 3",
+            "createdDate":"12-11-2021",
+            "noOfDocs":8,
+            "approvedDocs":8,
+            "documentCategory":"product",
+            "completed":true
+        },
+        {
+            "name":"Prodcut Line 1",
+            "createdDate":"12-11-2021",
+            "noOfDocs":8,
+            "approvedDocs":10,
+            "documentCategory":"machine",
+            "completed":false
+        },
+        {
+            "name":"Prodcut Line 2",
+            "createdDate":"12-11-2021",
+            "noOfDocs":8,
+            "approvedDocs":10,
+            "documentCategory":"product",
+            "completed":false
+        },
+        {
+            "name":"Prodcut Line 3",
+            "createdDate":"12-11-2021",
+            "noOfDocs":8,
+            "approvedDocs":10,
+            "documentCategory":"product",
+            "completed":false
+        }
+    ],
+    "machinedocuments":[
+        {
+            "name":"Machine Document 1",
+            "uploadDate":"",
+            "author":"DENSO Corp.",
+            "size":5.2,
+            "pages":20,
+            "completed":true
+        },
+        {
+            "name":"Machine Document 2",
+            "uploadDate":"",
+            "author":"DENSO Corp.",
+            "size":5.2,
+            "pages":20,
+            "completed":true
+        },
+        {
+            "name":"Machine Document 3",
+            "uploadDate":"",
+            "author":"DENSO Corp.",
+            "size":5.2,
+            "pages":20,
+            "completed":true
+        },
+        {
+            "name":"Machine Document 1",
+            "uploadDate":"",
+            "author":"DENSO Corp.",
+            "size":5.2,
+            "pages":20,
+            "completed":false
+        },
+        {
+            "name":"Machine Document 2",
+            "uploadDate":"",
+            "author":"DENSO Corp.",
+            "size":5.2,
+            "pages":20,
+            "completed":false
+        },
+        {
+            "name":"Machine Document 3",
+            "uploadDate":"",
+            "author":"DENSO Corp.",
+            "size":5.2,
+            "pages":20,
+            "completed":false
+        }
+    ],
+    "productdocuments":[],
+    "processdocuments":[],
+    "factorydocuments":[],
+    "resourcedocuments":[]
+}

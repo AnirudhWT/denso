@@ -1,0 +1,1233 @@
+{
+  "one": "1",
+  "two": "2",
+  "three": "3",
+  "four":"4",
+  "five": "5",
+  "six":"6",
+  "seven":"7",
+  "eight":"8",
+  "nine":"9",
+  "ten":"10",
+  "eleven":"11",
+  "twelve":"12",
+  "next": "次へ",
+  "back": "戻る",
+  "at": "の",
+  "point": "。",
+  "colon": "：",
+  "createdOn": "作成日",
+  "header": {
+    "newCampaign": "新規キャンペーンを作成"
+  },
+  "sidenav":
+  {"agencyOptions":[
+      {
+        "text": "ホーム"
+      },
+      {
+        "text":"インフルエンサー   を探す"
+      },
+      {
+        "text": "キャンペーンを管理"
+      },
+      {
+        "text": "企業を管理"
+      },
+      {
+        "text": "キャンペーン エンゲージメント"
+      }
+      
+    ],
+  "influencerOptions":[
+      {
+        "text": "ホーム"
+      },
+      {
+        "text": "キャンペーン エンゲージメント"
+      }],
+      "home": "ホーム",
+      "exploreInfluencers":"インフルエンサー   を探す",
+      "manageCampaigns": "キャンペーンを管理",
+      "manageCompany": "企業を管理",
+      "engagementCenter": "エンゲージメント　センター",
+      "campaignEngagements": "キャンペーン エンゲージメント",
+      "myProfile": "My Profile"
+  }
+  ,
+  "footer":{
+     "termsText":"利用規約 | プライバシーポリシー",
+     "copyrightText":" 2021 Qritrim Inc。"
+  },
+  "exploreInfluencers":{
+    "heading":"インフルエンサーを探す",
+    "subHeading":"各種 SNS にて大量のインフルエンサーを探索できます。",
+    "tableHeaders":{
+      "followers":"フォロワー",
+      "posts":"投稿",
+      "subscribers":"フォロワー",
+      "tweets":"ツイート",
+      "views":"閲覧数",
+      "comments":"コメント",
+      "engagementRate":"エンゲージメント"
+    },
+    "channelList":[
+      {"label":"Youtube"},
+      {"label":"Instagram"},
+      {"label":"Twitter"}
+    ],
+    "filterInfuencers":"インフルエンサーをフィルターする",
+    "filterInfuencersBtn": "フィルターする",
+    "resetFilters":"フィルターのリセット",
+    "filter":"フィルター",
+    "search":"検索",
+    "followerCount":"フォロワー数",
+    "totalPostCount":"投稿数",
+    "viewCount":"閲覧数",
+    "commentCount":"コメント数" ,
+    "engagementRate":"エンゲージメント"
+  },
+  "agencyLanding":{
+     "resumelastacitivity":"前回終了したところから再開する",
+     "expploreinfluencers":"インフルエンサーを探す",
+     "manageCompany":"企業を管理",
+     "campaignsofar":"既に作成したキャンペーン。",
+     "zero":"0、",
+     "letsgiveitastart":"さあ、次の キャンペーンを作成しましょう。",
+     "manage":"キャンペーン",
+     "campaigns":"を管理",
+     "creatinga":"わずか 3ステップで",
+     "newcampaign":"新規キャンペーンを",
+     "isjust3-stepsaway":"作成できます。",
+     "startsomething":"今日はきっと",
+     "itsagooddayto":"何かをスタートさせるなら",
+     "remarkable":"良い日になりますよ",
+     "getDiscoveredBy":"好きな",
+     "theBrandThat":"ブランドと",
+     "youLike":"つながりましょう",
+     "hi": "Hi",
+     "campaignInvites": "キャンペーンの招待",
+     "engageWithBrands": "ブランドと交渉",
+     "createNewCampaign":{
+      "createnew":"新規キャンペーン",
+      "campaign":"を作成",
+      "5-8min":"5～8分",
+      "myProfile": "My Profile"
+            }
+  },
+  "companyProfilePage":{
+     "searchPlaceholder":"キャンペーン、インフルエンサー、ブランドなどの検索",
+     "uploadOn":"追加日",
+     "createdOn": "作成日",
+     "createdon": "作成日",
+     "brands":"ブランド",
+     "noofBrands":"ブランド数",
+     "socialReach":"ソーシャルリーチ",
+     "campaigns":"キャンペーン",
+     "inProgress": "進行中",
+     "tableHeaders":{
+       "brandName":"ブランド名",
+       "campaignName":"キャンペーン名",
+       "objective":"目的",
+       "influencerEngaged":"参加インフルエンサー",
+       "channels":"チャンネル",
+       "category":"カテゴリー"
+     }
+  },
+  "selectInfluencer":{
+     "heading":"インフルエンサーを選択",
+     "campNamelabel":"キャンペーン名",
+     "editBtnText":" キャンペーン条件の編集",
+     "attributes":"アトリビュート",
+     "getScore":"スコアを見る",
+     "inviteSelected":"招待する",
+     "allChannels":"全ての SNS チャンネル",
+     "searchMore":"より多くのインフルエンサーを検索",
+     "search":"検索",
+     "channelList":[
+      {"label":"Youtube"},
+      {"label":"Instagram"},
+      {"label":"Twitter"}
+     ],
+     "tableHeaders":{
+      "totalFollowers":"フォロワー 数 ",
+      "totalSubscribers":"フォロワー 数 ",
+      "engagementScore":"エンゲージメント スコア",
+      "audienceMatchScore":"オーディエンス マッチイング スコア",
+      "attributeMatchScore":"アトリビュート マッチイング スコア",
+      "selectInfluencer":"インフルエンサー の選択"
+     },
+     "tableHeadersTootips":{
+      "totalFollowers":"全フォロワー数 / 選択した SNS チャンネルごとのフォロワー数",
+      "totalSubscribers":"全フォロワー数 / 選択した SNS チャンネルごとのフォロワー数",
+      "engagementScore":"投稿したチャンネル毎のエンゲージメント",
+      "audienceMatchScore":"キャキャンペーン作成時に選択したオーディエンスの条件と、インフルエンサーのオーディエンスが一致していることを示すスコア",
+      "attributeMatchScore":"アトリビュートを示すスコア",
+      "selectInfluencer":"キャンペーンに招待する１人もしくはそれ以上のインフルエンサーを選択する"
+     },
+     "editCampaignForm":{
+        "category":{
+           "label":"カテゴリー",
+           "placeholder":"カテゴリを選択してください",
+           "errorMessage":"必須フィールド"
+        },
+        "geography":{
+           "label":"地理",
+           "placeholder":"地理を選択",
+           "errorMessage":"必須フィールド"
+        },
+        "timeline":{
+           "label":"タイムライン",
+           "fromErrorMessage":"必須フィールド",
+           "toErrorMessage":"必須フィールド"
+        },
+        "budget":{
+           "label":"予算",
+           "maxErrorMessage":"必須フィールド",
+           "minErrorMessage":"必須フィールド"
+        },
+        "ageGroup":{
+           "label":"年齢層",
+           "placeholder":"年齢層を選択",
+           "errorMessage":"必須フィールド"
+        },
+        "ethnicity":{
+           "label":"人種",
+           "placeholder":"民族を選択",
+           "errorMessage":"必須フィールド"
+        },
+        "keywords": {
+          "label":"キーワード / タグ",
+          "placeholder":"",
+          "errorMessage":"必須フィールド"
+        },
+        "gender":"性別",
+        "male":"男性",
+        "female":"女性",
+        "neutral":"Neutral",
+        "brandAffinity":{
+           "label":"ブランドアフィニティ",
+           "placeholder":"ブランドアフィニティを選択",
+           "errorMessage":"必須フィールド"
+        },
+        "submitBtn":"条件を更新"
+     },
+     "invited":"招待済み",
+     "invitationrequestsuccessfullySent":"招待リクエストが正常に送信されました",
+     "errorOccured":"エラーが発生しました。",
+     "youHaveSelected":"インフルエンサーを",
+     "clickOnInvite":"人選択しました。招待を送信するには、「招待する」をクリックします。",
+     "hideAlreadyInvited":"すでに招待済みのインフルエンサーを非表示",
+     "filters": "フィルター：",
+     "followerCount": "フォロワー数：",
+     "engagementScore": "エンゲージメント スコア",
+     "audienceMatchScore": "オーディエンス マッチイングスコア",
+     "attributeMatchScore": "アトリビュート マッチイングスコア",
+     "scoreModifiers": "スコア フィルター："
+  },
+  "createCampaign": {
+    "new": "新しく作る",
+    "camp": "キャンペーン",
+    "campHeading": "新規キャンペーンを作成",
+    "campDetInstr0": "新しいキャンペーンを作成するには、以下の基本情報を入力してください。",
+    "campDetInstr1": "キャンペーンのため既存のオーディエンスプロファイルを作成または選択します",
+    "campDetInstr2": "キャンペーンの主なハイライトを確認する",
+    "errorMessages": {
+      "cbkiForm": {
+        "summary": "基本情報を入力",
+        "detail": "すべての必須項目を入力してください。"
+      },
+      "objectiveForm": {
+        "summary": "開始するキャンペーンの目的を選択",
+        "detail": "目的を選択してください。"
+      },
+      "ctbpForm": {
+        "summary": "キャンペーンのタイムラインと予算を設定",
+        "detail": "すべての必須項目を入力してください。"
+      },
+      "targetAudienceForm": {
+        "summary": "ターゲットオーディエンスのサイズ",
+        "detail": "すべての必須項目を入力してください。"
+      },
+      "ciaForm": {
+        "summary": "キャンペーンタイプとアトリビュートを選択",
+        "detail": "すべての必須項目を入力してください。"
+      },
+      "criuForm": {
+        "summary": "キーワード、タグ",
+        "detail": "すべての必須項目を入力してください。"
+      }
+    },
+    "tabs": {
+      "campDet": "キャンペーンの詳細",
+      "inflDet": "キャンペーン基準",
+      "campSumm": "キャンペーンの概要",
+      "campDetAcc": {
+        "selectStart": "開始するキャンペーンの目的を選択",
+        "timeBudget": "キャンペーンのタイムラインと予算を設定",
+        "brandKey": "キャンペーンの基本情報を入力",
+        "selectStartAcc": {},
+        "timeBudgetAcc": {
+          "startScratch": "一からスタート",
+          "selectCamp": "キャンペーンテンプレートから選択 :",
+          "selectTemplate": "既存のキャンペーンテンプレートを選択する",
+          "uploadNewCom": "+ 新規企業をアップロード",
+          "uploadNewBrand": "+ 新規ブランドをアップロード",
+          "keywordsTool": "キーワードを追加するため、入力して ENTER を押してください 。",
+          "campName": {
+            "label": "1. あなたのキャンペーン名は何ですか？",
+            "placeholder": "例：新しい化粧品の発売",
+            "message": "これは必須フィールドです"
+          },
+          "companyName": {
+            "label": "2. 企業名を選択 :",
+            "placeholder": "企業名を選択",
+            "message": "これは必須フィールドです"
+          },
+          "campBrand": {
+            "label": "3. ブランド名を選択 :",
+            "placeholder": "ブランド名を選択",
+            "message": "これは必須フィールドです"
+          },
+          "categories": {
+            "label": "4. カテゴリー / 業種を選択：",
+            "placeholder": "キャンペーンカテゴリーを選択",
+            "message": "これは必須フィールドです"
+          },
+          "targetRegions": {
+            "label": "5. ターゲットとなる地域：",
+            "placeholder": "地域を選択",
+            "message": "これは必須フィールドです"
+          },
+          "ques_enterKeywords": "6. キーワード、タグを入力：",
+          "place_enterKeywords": "キーワード、タグを入力",
+          "message": "これは必須フィールドです"
+        },
+        "interestDetails": {
+          "timeline": {
+            "label": "6. キャンペーンのタイムライン：",
+            "fromLabel": "開始日：",
+            "toLabel": "終了日：",
+            "fromPlaceholder": "日日/月月/年年年年",
+            "toPlaceholder": "日日/月月/年年年年",
+            "message": "これは必須フィールドです"
+          },
+          "budget": {
+            "label": "7. インフルエンサーに割り当てられた予算：",
+            "minLabel": "最低金額：",
+            "maxLabel": "最高金額：",
+            "message": "これは必須フィールドです",
+            "maxError": "最高金額は最低金額よりも大きくなければなりません。",
+            "minError": "負の値は許可されていません",
+            "budgetError": "最低金額：$1.00　最高金額：$10.00"
+          },
+          "channel": {
+            "label": "8. キャンペン用チャンネルの選択は？",
+            "message": "これは必須フィールドです"
+          }
+        }
+      },
+      "inflDetAcc": {
+        "campaignType": "キャンペーンタイプとアトリビュートを選択",
+        "audienceProfile": "ターゲットオーディエンス",
+        "competitors": "キーワード、タグ",
+        "campaignTypelabels": {
+          "selectCampType": "キャンペーンタイプを選択",
+          "selectInfType": "インフルエンサータイプを選択",
+          "selectTop5Attributes": "アトリビュートトップ５を選択",
+          "potentialReach": "潜在的なリーチ",
+          "campaignsDoneTogetherWith": "1人のインフルエンサーと一緒に行うキャンペーン",
+          "ONE-TO-ONE": "ONE-TO-ONE",
+          "ONE-TO-MANY": "ONE-TO-MANY",
+          "otoInfo": "One-to-One のキャンペーンの場合、インフルエンサーがキャンペーンの招待を承諾すると、キャンペーンの条件を定義し、交渉することができます。",
+          "otmInfo": "1対多のキャンペーンの場合、作業明細書（SoW）のアップロードが必須となります。",
+          "otmUpload": "作業明細書（SoW）ドキュメントをアップロード",
+          "docUploaded": "アップロードされたドキュメント",
+          "docNotUploaded": "ドキュメントが見つかりません",
+          "selectAnAttribute": "アトリビュートを選択"
+        },
+        "targetAudience": {
+          "name": {
+            "label": "1. オーディエンスプロフィール名を選択：",
+            "placeholder": "新規オーディエンスプロフィール名を入力、または選択",
+            "message": "これは必須フィールドです"
+          },
+          "agePref": {
+            "label": "2. 年齢層の設定：",
+            "placeholder": "年齢層を選択",
+            "message": "これは必須フィールドです"
+          },
+          "genderPref": {
+            "label": "4. ターゲットとなる性別：",
+            "placeholder": "性別を選択",
+            "message": "これは必須フィールドです"
+          },
+          "ethnicalPref": {
+            "label": "3. ターゲットとなる人種：",
+            "placeholder": "人種を選択",
+            "message": "これは必須フィールドです"
+          },
+          "brandAffinity": {
+            "label": "5. ブランドアフィニティ：",
+            "placeholder": "ブランドアフィニティを選択",
+            "message": "これは必須フィールドです"
+          },
+          "saveAudienceProfile": {
+            "label": "新規オーディエンスプロフィールとして保存",
+            "message": "これは必須フィールドです"
+          }
+        },
+        "competitorsRelevant": {
+          "brandCompetitor": {
+            "label": "9. ブランドの競合他社のURLを入力 :",
+            "placeholder": "ここにURLを入力",
+            "message": "これは必須フィールドです"
+          },
+          "relevantInfluencer": {
+            "label": "10. 関連するインフルエンサーのリンクを入力 :",
+            "placeholder": "ここにURLを入力",
+            "message": "これは必須フィールドです"
+          }
+        }
+      },
+      "campSummAcc": {
+        "congs": "Congratulations!",
+        "allSet": "これで準備は完了です。",
+        "getSt": "インフルエンサーの選択へ移動",
+        "saveNewCampTem": "新規キャンペーンテンプレートとして保存",
+        "campaignName" : "キャンペーン名",
+        "company" : "企業",
+        "brand" : "ブランド",
+        "objective" : "目的",
+        "region" : "地域 / 国",
+        "category" : "カテゴリー",
+        "budget" : "予算",
+        "timeline" : "タイムライン",
+        "influencerProfile": "インフルエンサープロフィール",
+        "audienceProfile" : "オーディエンスプロフィール"
+      }
+    }
+  },
+  "uploadCompany": {
+    "uploadCompanyHeading": "企業 / ブランドデータの追加",
+    "sucUploadCompanyHeading": "データ追加の完了",
+    "uploadDetInstr": "新しい企業 / ブランドを追加するには、以下の詳細を入力してください。",
+    "uploadDetSubmittedInstr": "引き続き企業データ登録、管理することが可能です。",
+    "reset": "リセット",
+    "submit": "SUBMIT",
+    "multipleBrand": "ブランドデータを追加しますか？＊複数可",
+    "uploadLogo": "ロゴをアップロード",
+    "mustbejpg/png256x255&below1MB":"必須形式 .jpeg / .jpg / .png（256 x 256 , 1MB 未満）",
+    "companyDetalis": {
+      "companyDetailsLabel": "企業/ブランドの基本情報を入力",
+      "companyName": {
+        "label": "1. 企業名：",
+        "placeholder": "例：Nike社やApple社など",
+        "message": "これは必須フィールドです",
+        "nameAlreadyEx": "名前はすでに存在します"
+      },
+      "brandName": {
+        "label": "2. ブランド名：",
+        "placeholder": "ブランド名を入力",
+        "message": "これは必須フィールドです"
+      },
+      "catIndSegment": {
+        "label": "3. カテゴリー / 業界セグメントを選択：",
+        "placeholder": "ブランドのカテゴリー / 業界セグメントを選択",
+        "message": "これは必須フィールドです"
+      }
+    },
+    "brandDetails": {
+      "brandDetailsLabel": "ブランドの連絡先詳細",
+      "priPointCon": {
+        "label": "4. 担当窓口 :",
+        "placeholder": "担当者名",
+        "message": "これは必須フィールドです"
+      },
+      "priPointnum": {
+        "label": "5. 担当者連絡先 :",
+        "placeholder": "電話番号",
+        "message": "これは必須フィールドです"
+      },
+      "priConEmail": {
+        "label": "6. 担当者メールアドレスを入力：",
+        "placeholder": "メールアドレスを入力",
+        "message": "これは必須フィールドです"
+      }
+    },
+    "socialMediaDetails": {
+      "socialMediaDetailsLabel": "ウェブサイト、ソーシャルメディアの詳細",
+      "websiteUrl": {
+        "label": "10. ウェブサイト URL",
+        "placeholder": "https://brandname.com",
+        "message": "これは必須フィールドです"
+      },
+      "socialMedia": {
+        "channel": {
+          "label": "",
+          "placeholder": "SNS を選択",
+          "message": "これは必須フィールドです"
+        },
+        "channelUrl": {
+          "label": "",
+          "placeholder": "リンク先アドレスを入力",
+          "message": "これは必須フィールドです"
+        }
+      }
+    },
+    "uploadSuccess": {
+      "cong": "おめでとう！",
+      "succUpload": "つのブランド / 企業の詳細が正常に追加されました。",
+      "bcLabel": "ブランド / 社。",
+      "takeFrist": "新規キャンペーン作成",
+      "CreatCampaign": "の第一歩を踏み出そう。",
+      "uploadBrand": "新規ブランドの追加",
+      "goToManageComp": "企業を管理へ移動"
+    },
+    "uploadDialog": {
+      "heading": "ブランドデータの追加",
+      "subHeading": "追加アップロード用テンプレートをまずダウンロードしてください。",
+      "downTemp": "テンプレートを ダウンロード",
+      "confirmUpload": "アップロードする",
+      "ddLabel1": "記入済みのテンプレートをここにド",
+      "ddLabel2": "ラッグ＆ドロップしてください。",
+      "or": "または、",
+      "selectFile": "ファイルを選択"
+    },
+    "errorMessages": {
+      "comDetForm": {
+        "summary": "企業/ブランドの基本情報を入力",
+        "detail": "すべての必須項目を入力してください。"
+      },
+      "brandContDetForm": {
+        "summary": "ブランドの連絡先詳細",
+        "detail": "すべての必須項目を入力してください。"
+      },
+      "socialMedForm": {
+        "summary": "ウェブサイト、ソーシャルメディアの詳細",
+        "detail": "すべての必須項目を入力してください。"
+      },
+      "uploadComLogo": {
+        "summary": "企業のロゴをアップロードする",
+        "detail": "アップロードに失敗しました"
+      },
+      "uploadBLogo": {
+        "summary": "ブランドロゴをアッロードする",
+        "detail": "アップロードに失敗しました"
+      }
+    }
+  },
+  "loginPage": {
+    "loginSwitchData": {
+      "agency":{
+        "defaultLabel": "代理店",
+        "checkedLabel": "代理店",
+        "label2": "の方",
+        "label1": "代理店"
+      },
+      "brand":{
+        "defaultLabel": "ブランド",
+        "checkedLabel": "ブランド",
+        "label2": "の方",
+        "label1": "ブランド"
+      },
+      "influencer":{
+        "defaultLabel": "インフルエンサー",
+        "checkedLabel": "インフルエンサー",
+        "label2": "の方",
+        "label1": "インフルエンサー"
+      }
+    },
+    "loginData": {
+      "agency": {
+        "label1": "代理店",
+        "label2": "サインイン",
+        "placeholder1": "ユーザー名",
+        "placeholder2": "パスワード"
+      },
+      "brand": {
+        "label1": "ブランド",
+        "label2": "サインイン",
+        "placeholder1": "ユーザー名",
+        "placeholder2": "パスワード"
+      },
+      "influencer": {
+        "label1": "QIVRに登録する",
+        "label2": "",
+        "navigationLabel": "すでにアカウントをお持ちの方"
+      },
+      "influencerSignUp": {
+        "label1": "Emailを使用して登録する",
+        "label2": "",
+        "placeholder1": "電子メールを入力",
+        "placeholder2": "パスワード",
+        "navigationLabel": "すでにアカウントをお持ちの方"
+      },
+      "influencerSignIn": {
+        "label1": "サインイン",
+        "label2": "",
+        "placeholder2": "パスワード",
+        "placeholder1": "電子メールを入力",
+        "navigationLabel": "Emailを使用して登録する"
+      },
+      "forgotPassword": {
+        "label1": "パスワードを",
+        "label2": "再設定する",
+        "placeholder1": "メールアドレス",
+        "navigationLabel": "サインインに戻る"
+      },
+      "resetPassword": {
+        "label1": "リセット",
+        "label2": "パスワード",
+        "placeholder1": "新しいパスワードを入力してください"
+      },
+      "socialLoginOptions": {
+        "google": "Sign Up Using Google",
+        "facebook": "FACEBOOK を使用してサインイン",
+        "twitter": "TWITTER を使用してサインイン"
+      }
+    },
+    "Sign Up as": "登録",
+    "Reset": "送信",
+    "back": "戻る",
+    "Sign In Using Google": "を使用してサインイン Google",
+    "Sign In Using Facebook": "を使用してサインイン Facebook",
+    "Sign In Using twitter": "を使用してサインイン twitter",
+    "Enter your new password": "新しいパスワードを入力してください",
+    "Agency": "代理店",
+    "I am": "わたし",
+    "Brand": "ブランド",
+    "I am an": "わたし",
+    "Influencer": "インフルエンサー",
+    "Agency Account": "代理店の方",
+    "Sign into": "にサインイン",
+    "Brand Account": "ブランドの方",
+    "Sign In as": "サインイン",
+    "signInUsingEMail": "Emailを使用して登録する",
+    "Sign In Using": "を使用してサインイン",
+    "E-Mail": "電子メール",
+    "Google": "Google",
+    "Facebook": "Facebook",
+    "Twitter": "Twitter",
+    "forgotpassword": "パスワードをお忘れの方？",
+    "password": "パスワード",
+    "signUp": "登録",
+    "signIn": "サインイン",
+    "Username": "ユーザー名",
+    "social login": "ソーシャルログイン",
+    "Enter your E-mail here": "メールアドレス",
+    "Password": "パスワード",
+    "qritrimInc": "Qritrim Inc",
+    "resetPassword": "パスワードを再設定する",
+    "createNewPassword": "新しいパスワードを作成する",
+    "submit": "SUBMIT",
+    "requestingForEmail": "パスワードリセットの案内をメールに送りました。",
+    "createNewpwSuc": "パスワードは正常にリセットされました。サインインして続行します",
+    "Create": "作成する",
+    "New Password": "新しいパスワード",
+    "Confirm password": "パスワードを認証する",
+    "or": "または"
+  },
+  "manageCompany":{
+     "heading":"企業を管理",
+     "subHeading":"追加したすべての企業を一元管理できます。",
+     "createBtnText":"新規企業を追加",
+     "searchPlaceholder":"検索したい企業名を入力",
+     "tableHeaders":{
+      "companyName":"企業名",
+      "brandsAssociated":"関連ブランド",
+      "totalCampaigns":"キャンペーン数",
+      "activeCampaigns":"アクティブキャンペーン",
+      "draftCampaigns":"ドラフトキャンペーン"
+     },
+     "filterBtns":[
+        {
+           "label":"追加された企業"
+        },
+        {
+           "label":"キャンペーン数"
+        },
+        {
+           "label":"参加インフルエンサー"
+        },
+        {
+           "label":"アクティブキャンペーン"
+        }
+     ],
+     "more":"more"
+  },
+  "manageCampaigns":{
+     "heading":"キャンペーンを管理",
+     "subHeading":"すべてのキャンペーンを1か所で管理できます。",
+     "createBtnText":"キャンペーンを作成",
+     "searchPlaceholder":"キャンペーン、インフルエンサー、ブランドなどの検索",
+     "tableHeaders":{
+      "campaignName":"キャンペーン名",
+      "brand":"ブランド",
+      "status":"ステータス",
+      "influencerEngaged":"参加インフルエンサー",
+      "channels":"チャンネル",
+      "category":"カテゴリー"
+     },
+     "filterBtns":[
+        {
+           "label":"キャンペーン数"
+        },
+        {
+           "label":"アクティブキャンペーン"
+        },
+        {
+           "label":"インフルエンサー と交渉中の キャンペーン"
+        },
+        {
+           "label":"インフルエンサー 選定待ちの キャンペーン"
+        }
+     ],
+     "more":"more",
+     "inProgress":"進行中",
+     "createdOn":"作成日"
+  },"influencerdashboard":{
+    "heading":"Welcome",
+    "subHeading":"すべてのキャンペーンを1か所で管理できます。",
+    "searchPlaceholder":"キャンペーン、ブランド、代理店、カテゴリー等の検索",
+    "tableHeaders":{
+     "campaignName":"キャンペーン名",
+     "campaignBrand":"対象ブランド",
+     "category":"カテゴリー",
+     "timeline":"タイムライン",
+     "budget":"予算",
+     "action":"アクション"
+    },
+    "filterBtns":[
+       {
+          "label":"全てのキャンペーンリクエスト"
+       },
+       {
+          "label":"アクティブキャンペーン"
+       },
+       {
+          "label":"交渉中のキャンペーン"
+       },
+       {
+          "label":"未読メッセージ"
+       }
+    ],
+    "invitedBy":"招待者",
+    "createdOn":"作成日",
+    "accept":"承諾する",
+    "decline":"Decline",
+    "engage": "契約する"
+ },
+  "influencerProfileDetails": {
+    "graphLabels":{
+      "hastagCount":"ハッシュタグ数",
+      "mentionCount":"メンション数",
+      "languageProfile":"言語プロフィール"
+    },
+    "tabs":{
+      "socialProfile":"ソーシャルプロフィール",
+      "audienceProfile":"オーディエンスインサイト",
+      "channelFeeds":"チャンネルフィード"
+    },
+    "influencerProfileBio": {
+      "invite": "招待する",
+      "alreadyInvited":"既に招待されています",
+      "category": "カテゴリー:",
+      "tags": "タグ :",
+      "language": "言語 :",
+      "audienceBrandAffinity": "オーディエンスの   ブランドアフィニティ:",
+      "edit": "プロファイルを編集"
+    },
+    "influencerReachData": {
+      "audienceMatch": "オーディエンス マッチ",
+      "socialReach": "ソーシャルリーチ",
+      "engagement": "エンゲージメント",
+      "manageCampaigns": "キャンペーンを管理",
+      "viewMoreInfluencer": "インフルエンサーをもっと表示",
+      "campaignsEngaged":"参加したキャンペーン"
+    },
+    "influencerTabs": {
+      "socialProfile": "ソーシャルプロフィール",
+      "audienceInsight": "オーディエンスインサイト",
+      "channelFeed": "チャンネルフィード"
+    },
+    "influencerChannels": {
+      "YouTube": "YouTube",
+      "Instagram": "Instagram",
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Line": "Line"
+    },
+    "influencerSocialProfile": {
+      "subscriberGrowth": "フォロワートレンド",
+      "postsvsViewsGrowth": "投稿数 vs. 閲覧数",
+      "postSelectPh": "トップ投稿を選択",
+      "totalFollowers": "フォロワー数",
+      "totalSubscribers":"フォロワー数",
+      "engagementRate": "エンゲージメントの割合",
+      "totalUploads": "アップロード数",
+      "totalComments": "コメント数",
+      "uploadsWeek": "1週間あたりの アップロード数",
+      "categoriesWiseEngagement": "カテゴリーごとのエンゲージメント",
+      "music": "音楽",
+      "fitness": "フィットネス",
+      "sports": "スポーツ",
+      "beauty": "美容",
+      "posts": "投稿",
+      "likes": "いいね！",
+      "top": "Top",
+      "categories": "カテゴリー",
+      "1w":"１週間",
+      "1m":"１か月",
+      "3m":"3か月",
+      "topPostFromLastWeek":"先週のトップ投稿",
+      "topPostFromLastMonth":"先月のトップ投稿",
+      "topPostFromLast3Month":"過去3カ月のトップ投稿"
+    },
+    "relatedInfluencers": {
+      "relatedInfluencers": "関連するインフルエンサー",
+      "viewMore": "さらに表示"
+    },
+    "audienceInsight": {
+      "audienceBrandAffinity": "オーディエンスのブランドアフィニティ",
+      "audienceLanguageProfile": "オーディエンスの言語プロフィール",
+      "genderAgeDistribution": "性別と年齢別の割合",
+      "geographicalDistribution": "地理的分布",
+      "male": "男性",
+      "female": "女性",
+      "age":"年齢別の割合"
+    },
+    "channelFeeds": {
+      "topBrandMentions": "ブランドメンショントップ10",
+      "topHashTagsUsed": "使用されたハッシュタグトップ10",
+      "keywordsTagsInterests": "キーワード、タグ、興味",
+      "latestUploads": "最新のアップロード",
+      "latestTweets":"最新のツイート",
+      "latestPosts":"最新の投稿",
+      "titleNotAvailable":"タイトルが使用できません"
+    },
+    "inviteInfluencer": {
+      "success":{
+        "title": "やったー！",
+      "subTitle": "招待状が正常に送信されました。",
+      "description":"インフルエンサーの返信後、通知が届きます。続けて招待する。"
+      },
+      "missingmultipleIds":{
+        "title":"ご関心をお寄せいただき",
+      "subTitle":"ありがとうございます。",
+      "description":"インフルエンサーから連絡があり次第、招待状を確認します。"
+    },
+      "missingSingleId":{
+        "title":"That's awesome !",
+      "subTitle":"作業完了です。",
+      "description":"リクエストを承りました。しばらくお待ちください。続けて招待する。"
+    },
+      "invMore": "さらに招待する",
+      "convCenter": "エンゲージメントセンターへ移動",
+      "campDet": "キャンペーンの詳細へ移動"
+    }
+  },
+  "engagement": {
+    "emptyClauseMsg":"まずは、以下のテンプレートから、Custom 条項または Loading 条項を追加してください。",
+    "header":"エンゲージメントセンター",
+    "instruction":"キャンペーンに関するディスカッション、交渉、レビューを行い、契約を締結します。",
+    "dashB":"ダッシュボード",
+    "search":"検索",
+    "infl":"インフルエンサー",
+    "category":"カテゴリー:",
+    "timel":"タイムライン :",
+    "targetGeo":"対象となる地域 :",
+    "campId":"キャンペーンID :",
+    "newInfl":"新規 インフルエンサー",
+    "actInfl":"アクティブインフルエンサー",
+    "newCamp": "新規キャンペーン",
+    "actCamp": "アクティブなキャンペーン",
+    "brand": "ブランド",
+    "agency": "代理店",
+    "arch":"アーカイブ済み",
+    "savedN":"保存されたメモ",
+    "remnd":"リマインダー",
+    "starredMsg":"スター付きメッセージ",
+    "filterCat":"フィルターカテゴリー",
+    "type":"ここに入力",
+    "gotoCampObj": "キャンペーンの目的へ移動",
+    "reviewCampTerms": "キャンペーン条件を再確認",
+    "respondedvia": "経由で応答済み",
+    "readMore": "READ MORE",
+    "readLess": " READ LESS",
+    "nodata": "データが見つかりません",
+    "addRem": "リマインダーを追加",
+    "selectDataTime": "日付と時間を選択",
+    "save": "保存",
+    "send": "送信",
+    "setRytExp": "まずは、正しい期待値を設定します。",
+    "discussScope": "キャンペーンの目的に応じて作業範囲を話し合いましょう。",
+    "infSetRytExp": "条件を再確認。提案を共有。受け入れて確認。",
+    "infDiscussScope": "キャンペーンの目的に合わせて作業範囲について話し合う",
+    "campObj": "キャンペーンの目的",
+    "typeObj": "タイプ",
+    "saveItAsNewTem": "新規テンプレートとして保存",
+    "loadClause": "テンプレートから条項をロードする",
+    "AddCustomCla": "カスタム条項を追加する",
+    "sendForReview": "確認の為送信",
+    "confGo": "確認後次へ進む",
+    "selectAnExTem": "ロードする既存条項テンプレートを選択",
+    "tempPlaceholder": "検索するテンプレート名を入力してください",
+    "tempName": "テンプレート名",
+    "loadSelectTem": "選択したテンプレートをロードする",
+    "to":" 宛先",
+    "at":"の",
+    "-":"~",
+    "defineObjectives":"目的を定義",
+    "reviewTerms":"条件確認",
+    "sharedCollateral":"コンテンツを共有",
+    "campaignLinks":"キャンペーンのリンク",
+    "writeSomething": "ここにメッセージを入力してください" 
+  },
+  "errorMessages": {
+    "fieldReqd": "ここは必須項目です",
+    "loginFieldReqd": "ここは必須項目です。",
+    "fieldemail": "有効なメールアドレスが入力されていません。",
+    "Campaign Name is Already Existing!": "キャンペーン名はすでに存在しています。",
+    "nameAlreadyEx": "名前はすでに存在します",
+    "campaignName": "キャンペーン名",
+    "loginPage": {
+      "signIn": {
+        "summary": "サインインに失敗しました",
+        "msgDetail": "有効な情報が入力されていません。",
+        "Email Id Already Registered": "既に登録済みの Email ID です。"
+      },
+      "createNewpwSuc": {
+        "summary": "リセット成功",
+        "msgDetail": "パスワードが正常にリセットされました。サインインして続行します"
+      },
+      "createNewpwErr": {
+        "summary": "リセットに失敗しました",
+        "msgDetail": "",
+        "comfirm": "パスワードと確認用パスワードが一致しません。",
+        "pattern": "８文字以上の英数字を入力。例：Atest123"
+      },
+      "resetPwErr": {
+        "summary": "リセットに失敗しました",
+        "msgDetail": "無効な電子メールアドレス"
+      }
+    },
+    "urlInvalid": "この URL は無効です。"
+  },
+  "campaignDetails": {
+    "camp": "camp",
+    "createdFor": "対象のブランド",
+    "campaignFor": "Campaign for",
+    "createdOn": "作成日",
+    "status": "ステータス",
+    "objective": "目的",
+    "invitedBy":"招待者",
+    "budget":"予算",
+    "acceptInvitation":"招待を受け入れる",
+    "declineInvitation":"招待を辞退する",
+    "negotialble":"交渉可能",
+    "region": "地域",
+    "category": "カテゴリー",
+    "timeline": "タイムライン",
+    "type": "タイプ",
+    "conversions": "コンバージョン",
+    "sales": "売上",
+    "influencers": "インフルエンサー",
+    "audienceProfile": "オーディエンスプロフィール",
+    "influencersSelected": "選択されたインフルエンサー",
+    "inviteMore": "さらに招待する",
+    "typeInfSearchPh": "検索したいインフルエンサー名を入力",
+    "profileName" : "プロフィール名",
+    "ageGroup" : "年齢層",
+    "gender" : "性別",
+    "ethnicity" : "人種",
+    "keywords" : "キーワード / タグ",
+    "brandAffinity": "ブランドアフィニティ",
+    "nameOfTheInf": "インフルエンサー名",
+    "contact": "連絡先",
+    "action": "アクション",
+    "stage": "ステータス",
+    "channels": "SNS チャンネル",
+    "-":"~"
+  },
+  "languageItems": [
+    {
+      "label": "EN"
+    }, {
+      "label": "JP"
+    }
+  ],
+  "noResultsFound":"結果が見つかりません。",
+  "campaignObjective": {
+    "saveNewTem": {
+      "title": "テンプレート名を入力して条件を保存 :",
+      "placeholder": "ここに固有のテンプレート名を入力",
+      "saveTemplate": "テンプレートを保存"
+    },
+    "addDueDate": "期日を追加",
+    "termType": "条項タイプ",
+    "commercial": "コマーシャル",
+    "requirement": "要件",
+    "budget": "予算",
+    "description": "詳細",
+    "clauseNamePla": "条項名を入力してください",
+    "newProposedDate": "提案日",
+    "acceptDate": "日付を受け入れる",
+    "proSolI": "が提案したソリューション / アイデア",
+    "accTheTerms": "が条件を了承しました。",
+    "acceptTerms": "条件を了承する",
+    "startConAddCom": "会話を開始",
+    "startConAddComPlaH": "より明確な説明を求めるために、ここにコメントを書いてください。",
+    "startCon": "会話を開始",
+    "activityLog": "アクティビティログ",
+    "send": "送信",
+    "done": "完了",
+    "fieldErrorMessage":"必須フィールド",
+    "noClauseToSave":"テンプレートとして保存する条項はありません。",
+    "savedSuccessfully":"正常に保存されました。",
+    "succesfullyDeleted":"正常に削除されました。",
+    "clauseNotReviewedYet":"条項はまだ確認されていません。",
+    "sentForReviewSuccessfully":"確認の為、送信されました。",
+    "allClausesAreReviewed":"全条項が確認されました。",
+    "clausesAreNotAcceptedByBothTheParties":"条項は両当事者からの同意が得られていません。",
+    "errorOccured":"エラーが発生しました。",
+    "addClause":"条項追加",
+    "budgetError": "最低金額：$1.00　最高金額：$10.00",
+    "info": "情報",
+    "success": "Success",
+    "error": "エラー",
+    "campaignEngagedMsg": "このキャンペーンはすでに有効化されています。"
+  },
+  "profileMenu": {
+    "logout": "サインアウト"
+  },
+  "sealDeal": {
+    "letReviewsd": "詳細を全て確認の上、契約を結びましょう。",
+    "compAndagr": "全ての完了済項目を確認し、条件に同意します。",
+    "campSetD": "キャンペーン設定完了",
+    "campaign": "作成済み",
+    "created": "キャンペーン",
+    "influencer": "選択した",
+    "identified": "インフルエンサー",
+    "on": "",
+    "infInvt": "インフルエンサーを招待",
+    "infConAndDis": "インフルエンサーと連絡後、交渉開始",
+    "objectives": "目的の設定",
+    "defined": "",
+    "infAgr": "インフルエンサーが同意しました",
+    "ageAgr": "代理店が同意しました",
+    "agencyConfirmed": "代理店確認済み",
+    "Terms": "同意された",
+    "Agreed": "条件",
+    "rewStaOfwork": "作業明細書（SoW）の確認",
+    "pleaseRewTer": "条項を受諾するには、「条件確認」をクリックし、作業明細書（SoW）をダウンロードしてください。",
+    "preambleTemToGen": "作業明細書（SoW）作成時に必要なプリアンブル（前文）テンプレートがアップロードされていません。",
+    "youAccTerm": "、本条件条項への同意が確認されました。",
+    "infRewTer": "代理店がプリアンブル（前文）テンプレートをアップロードします、暫くお待ちください。",
+    "at": "の",
+    "PleaSealD": "今すぐ契約を結んでください。",
+    "sealDeal": "契約を結ぶ",
+    "hurrah": "やったー！",
+    "infSealDealMsg": "代理店が契約を結べば、キャンペーンがアクティブになります。",
+    "youCampAct": "キャンペーンがアクティブになりました！！",
+    "readyToInf": "インフルエンスしましょう！",
+    "readyTodec": "クリエイティブになりましょう。投稿コンテンツのアイディアをブランド / 代理店のマネージャーに送信し、レビューを受けてみましょう。",
+    "gotoCamp": "キャンペーンへ移動",
+    "StatOfWork": "作業明細書 (SoW)",
+    "campaignName": "キャンペーン名",
+    "date": "日付",
+    "clause": "条項",
+    "download": "ダウンロード",
+    "agrTc": "上記利用規約に同意します。",
+    "accept": "承諾する",
+    "plsRevTc": "契約条件を確認してください",
+    "rewTerms": "条件確認",
+    "campaignCreatedOn": "キャンペーン作成日",
+    "timeline": "タイムライン",
+    "clauseType": "条項タイプ",
+    "clauseBudget": "条項予算",
+    "description": "詳細",
+    "campaignSummary": "キャンペーンの概要",
+    "campaignScope": "キャンペーンの条件詳細",
+    "audienceProfile": "オーディエンスプロフィール",
+    "companyBrandName" : "企業 / ブランド名",
+    "influenceName": "インフルエンサー名",
+    "duration": "間隔",
+    "objective": "目的",
+    "budget": "予算",
+    "info": "情報",
+    "success": "成功",
+    "error": "エラー",
+    "reviewTermsNotAcc": "レビュー条件は両当事者によって受け入れられません。",
+    "audienceProfileName": "オーディエンスプロフィール",
+    "ageGroup": "年齢層",
+    "gender" : "性別",
+    "ethnicity" : "人種",
+    "keywords" : "キーワード / タグ",
+    "keywordsHeader": "キャンペーンで使用されているキーワードとハッシュタグ",
+    "brandAffinity": "ブランドアフィニティ",
+    "shareContent": "共有したコンテンツ",
+    "waitingForAgencySdJA": "コンテンツを共有するために、代理店が契約を締結するのをお待ちください。",
+    "waitingForAgencyATJA": "代理店が条件を了承するのをお待ちください。",
+    "colon": ":",
+    "PleaSealDJA": "、本条件条項への同意が確認されましたので、直ちに契約の締結を行ってください。"
+  },
+  "campaignLinks": {
+    "shareTheLinks": "ここにキャンペーンの投稿リンクを貼り付け",
+    "camLinksVisToAgency": "あなたのキャンペーンのリンクは、代理店に表示されます。",
+    "yourCamLinks": "あなたのキャンペーンのリンクはこちら",
+    "HurrahYourCamWentLive": "やったー！あなたのキャンペーンは以下のリンクで公開されました。",
+    "info": "情報",
+    "success": "Success",
+    "error": "エラー",
+    "submittedSuccessfully": "正常に Submit されました。",
+    "networks": {
+      "1": "Youtube 動画リンク：",
+      "2": "Instagram の投稿リンク:",
+      "5": "Twitter の投稿リンク:"
+    }
+  },
+  "engagementFlow": {
+    "BackToCon": "戻る",
+    "influencer": "インフルエンサー",
+    "category": "カテゴリー",
+    "timeline": "タイムライン",
+    "GeoReg": "対象となる地域",
+    "agByBothPar": "両当事者が合意",
+    "AwaitInfAcc": "インフルエンサーの承認待ち",
+    "AwaitAgenAcc": "代理店の承認待ち",
+    "clauses": "条項",
+    "info": "情報",
+    "success": "Success",
+    "error": "エラー",
+    "campaignEngagedMsg": "このキャンペーンはすでに有効化されています。"
+  },
+  "footerMenu": {
+    "privacyPolicy":"プライバシーポリシー",
+    "terms":"Terms",
+    "eula":"EULA",
+    "gpToLogin":"GO TO LOGIN"
+  },
+ "docsPdfSupp": ".docx / .pdf のみ",
+ "upto2mb": "最大 2 MB",
+ "uploadFileMust": "アップロード可能なファイル形式は (file type) です。",
+ "docsPdfUpTo2mb": ".docx / .pdf のみ 最大 2 MB",
+ "jpgPngbelow1MB": "1MB 未満 の .jpg / .png",
+ "xlxs2MB": ".xlxs 形式 2MB 未満",
+ "supportedFiles": "使用可能ファイル",
+ "supportedFilesType": ".xls / .xlsx（2 MB未満のみ）",
+ "companyValidationMessage": "この会社は代理店側で既に登録済みです。",
+ "errorMsg": "何か問題が発生しました。再試行してください。",
+ "invalidCatErrorMsg": "カテゴリが無効です。確認してください",
+ "noRowsFoundErrorMsg": "行が見つかりません！",
+ "months": {
+   "1": "1月",
+   "2": "2月",
+   "3": "3月",
+   "4": "4月",
+   "5": "五月",
+   "6": "6月",
+   "7": "7月",
+   "8": "8月",
+   "9": "9月",
+   "10": "10月",
+   "11": "11月",
+   "12": "12月"
+ },
+ "uploadPreambleTemplate": "プリアンブル（前文）テンプレートをアップロード",
+ "uploadPreTemDoc": "作業明細書（SoW）作成時に必要なプリアンブル（前文）テンプレートがアップロードされていません。",
+ "temLastUpl": "最後にアップロードされたテンプレート",
+ "shareCollateral": {
+  "header": "ファイルやリンクをインフルエンサーと安全に共有",
+  "supportedFileType": "対応ファイル形式 ",
+  "fileTypes": ".png、.jpg、.pdf、.psd、.ai、.avi、.mp4、.zip、.rar、.docx、.xls、.ppt、.mp3、.wav",
+  "uploadedSuccess": "ファイルは正常にアップロードされました。",
+  "nameExist": "ファイルがすでに存在しています。",
+  "fileUploadError": "アップロードされたファイルはサポートされていません。",
+  "uploadError": "何かがうまくいかなかった。もう一度やり直してください。",
+  "fileErrorMsg": "アップロードされたファイルはサポートされていません。5 MB 未満のサポートされているファイルをアップロードしてください。",
+  "supportedFileSize": "使用可能ファイル サイズ",
+  "fileSize": "5 MB",
+  "uploadedFiles": "アップロードされたファイル",
+  "dragAndDrop": "ファイルをここにドラッグ＆",
+  "filesHereToUpload": "ドロップしてください。",
+  "sharedFiles": "共有したファイル",
+  "or": "または",
+  "browse": "Browse",
+  "filterBy": "フィルター：",
+  "by": "By : ",
+  "noData": "データが見つかりません",
+  "approveContentForPublishing": "公開対象のコンテンツを承認",
+  "contentSharedwithBrand": "ブランドと共有したコンテンツ",
+  "campaignAsset": "共有されたキャンペーン資料",
+  "uploadedBy": "Uploaded By",
+  "uploadedOn": "Uploaded on",
+  "sharedBy": "Shared By",
+  "sharedOn": "Shared on",
+  "at": "の",
+  "filename": "ファイル名",
+  "download": "ダウンロード",
+  "remarksComments": "コメント",
+  "remarksCommentsPh": "ここにコメントを入力してください",
+  "deletePermanently": "完全に削除",
+  "sendForRevision": "訂正のため再送",
+  "approve": "承認",
+  "save": "保存",
+  "info": "情報",
+  "success": "Success",
+  "error": "エラー",
+  "commentsHistory": "コメント履歴：",
+  "filterByPla": "選択",
+  "allStatus": "すべてのステータス",
+  "done": "完了",
+  "status": "ステータス",
+  "searchPlaceholder": "検索するファイル名の入力"
+},
+ "campaignDetailMessages": {
+  "inviteMoreMsg": "このキャンペーンは既にアクティブ済みです。現在、新規招待は受け付けていません。"
+ },
+ "currency": {
+  "usd": "USD"
+},
+"loaderMsg": {
+  "manageCampaign":"キャンペーンをお調べいたしますのでお待ちください。",
+  "manageCompany":"企業をお調べいたしますのでお待ちください。",
+  "exploreInfluencer":"素晴らしいインフルエンサーを厳選しますのでお待ちください。",
+  "selectInfluencer":"あなたのキャンペーンに素晴らしいインフルエンサーを厳選しますのでお待ちください。",
+  "campaignDetails":"参加インフルエンサーをお調べいたしますのでお待ちください。",
+  "companyProfile": "詳細をお調べいたしますのでお待ちください。"
+},
+"defaultInfProfile": {
+  "header": "プロフィールを完了させてください",
+  "uploadProfile": "写真を アップロード",
+  "uploadProfilePicture": "プロフィール写真 をアップロード",
+  "provideAllFields": "すべての必須項目を入力してください。",
+  "emailId": { 
+    "label" : "メールアドレス：",
+    "placeholder": ""
+  },
+  "firstName": { 
+   "label" : "名:",
+   "placeholder": ""
+ },
+ "lastName": { 
+   "label" : "姓:",
+   "placeholder": ""
+ },
+ "dateOfBirth": { 
+   "label" : "生年月日:",
+   "placeholder": "日日/月月/年年年年"
+ },
+ "country": { 
+   "label" : "国:",
+   "placeholder": "選択"
+ },
+ "category": { 
+   "label" : "カテゴリー:",
+   "placeholder": "選択",
+   "optLabel": "３つまで選択（可）"
+ },
+  "linksOfSMA": "SNS アカウントのリンク",
+  "done": "完了"
+}
+}

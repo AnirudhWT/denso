@@ -1,0 +1,133 @@
+.dashboard-box {
+    padding: 2.08vw 2.65vw;
+}
+
+.heading {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.09vw;
+    line-height: 3.69vw;
+    color: #141e4f;
+    i {
+        font-size: 2.1vw;
+    }
+}
+.add-newprodcut-container {
+    background: #f8fafc;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    padding: 1.56vw;
+}
+.default-input,
+.borderless-textArea {
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #cdd5df;
+    box-sizing: border-box;
+    padding: 1vw;
+    margin-bottom: 1.04vw;
+}
+.form-field-label {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.04vw;
+    line-height: 2.03vw;
+    color: #20365a;
+    margin-bottom: 0.36vw;
+}
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #eef2f7;
+    border: 1px dashed #cdd5df;
+    box-sizing: border-box;
+    height: 11.25vw;
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 0.98vw;
+    color: #748094;
+    margin-bottom: 1.04vw;
+    i {
+        font-size: 2.11vw;
+        color: #a3aebf;
+        margin-right: 1.87vw;
+    }
+}
+button {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.72vw;
+    line-height: 0.88vw;
+    background: #dc0032;
+    text-align: center;
+    color: #ffffff;
+    padding: 0.67vw 1.19vw;
+    border: none;
+}
+.upload-info {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 0.98vw;
+    color: #748094;
+}
+.uploadicon{
+    font-size: 0.83vw;
+    color: #748094;
+}
+:host ::ng-deep {
+    .p-fileupload {
+        text-align: center;
+    }
+    .p-fileupload-choose:not(.p-disabled):active {
+        background: none;
+        color: #0b2257;
+        border-color: red;
+    }
+    .p-fileupload-choose:not(.p-disabled):hover {
+        background: none;
+        color: #0b2257;
+        border-color: red;
+    }
+    .p-fileupload-advanced {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .p-fileupload-content {
+        background-color: transparent;
+        border: none;
+        padding: 4vw 8vw;
+        border: 1px dashed #a3aebf;
+    }
+    .p-fileupload-row {
+        display: none;
+    }
+    .p-fileupload-choose {
+        background: none;
+        border: none;
+        padding: 0;
+        font-family: "Helvetica Neue LT Pro";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.83vw;
+        line-height: 0.98vw;
+        color: #748094;
+        letter-spacing: 0px;
+    }
+    .p-fileupload-buttonbar {
+        background: none;
+        border: none;
+        position: absolute;
+        right: 43%;
+        bottom: 12%;
+        z-index: 111;
+        text-decoration: underline;
+    }
+}

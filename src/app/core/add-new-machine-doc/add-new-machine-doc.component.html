@@ -1,0 +1,71 @@
+
+<p-dialog [closable]="false" [(visible)]="openPopup" [modal]="true" [style]="{width: '40vw'}"
+[draggable]="false" [resizable]="false">
+
+    <form [formGroup]="uploadForm">
+        <div class="p-grid">
+    <div class="p-col-6 heading">
+        <i class="fas fa-cloud-upload-alt"></i>
+<span class="header">
+    Upload Document
+</span>
+    </div>
+    <div class="p-col-6 p-text-right close-popup-section">
+        <i class="far fa-times-circle close-icon cursor" (click)="closePopup()"></i>
+    </div>
+    <div class="p-col-12">
+        <p-autoComplete formControlName="docName"
+          [suggestions]="filteredCountries"
+          (completeMethod)="filterCountry($event)"
+          
+         field="name" [dropdown]="true">
+            <ng-template let-country pTemplate="item">
+                <div class="country-item">
+                    <div>{{country.name}}</div>
+                </div>
+            </ng-template>
+        </p-autoComplete>
+        <div *ngIf="submitted && uploadForm.controls['docName'].invalid || uploadForm.controls['docName'].invalid && (uploadForm.controls['docName'].dirty || uploadForm.controls['docName'].touched)"
+                            class="p-error">
+                            <div *ngIf="uploadForm.controls['docName'].errors?.required">
+                                Error
+                            </div>
+                            
+                        </div>
+    </div>
+    <div class="p-col-12">
+        
+        <div class="upload-section">
+            <p-fileUpload #fubSOW [customUpload]="true" name="file[]" url="" [maxFileSize]="2000000" [auto]="true"
+            accept="application/msexcel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            (uploadHandler)="uploadFile($event, fubSOW)" chooseLabel="Browse" chooseIcon="" uploadIcon=""
+            [styleClass]="'p-fileupload-cl'">
+        
+            <ng-template pTemplate="content" let-files>
+                <i class="fas fa-cloud-upload-alt uploadicon"></i>
+                <br />
+                <span class="upload-info">Drag and drop a file to upload
+                    <br/>
+                    or,
+                    </span>
+            </ng-template>
+        </p-fileUpload>
+        </div>
+    
+        <div  class="{{ !uploadForm.invalid ? 'showfilename' : 'hidefilename' }} p-grid p-px-1 p-py-3 fileInfoSection p-d-flex p-ai-center">
+            <div class=" p-col-6 filename">{{uploadedFileName}} 
+                <i class="fas fa-minus-circle remove-icon cursor" (click)="removeFile()"></i>
+            </div>
+            <div class="p-col-6 p-text-right confirm-upload-section">
+                <button (click)="submitForm()" class="confirm-upload">
+                    <i class="far fa-check-circle confirm-icon"></i>
+                    Confirm Upload
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+
+    
+</p-dialog>

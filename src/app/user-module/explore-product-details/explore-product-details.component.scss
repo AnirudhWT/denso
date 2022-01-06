@@ -1,0 +1,393 @@
+.main-content {
+    width: -webkit-fill-available;
+    min-width: 100 - 35.98vw;
+    height: 79vh;
+}
+
+.no-steps-info {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    text-align: center;
+    padding: 0.36vw 0;
+    color: #ffffff;
+    background: #a3aebf;
+    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
+}
+.top-tab-btn-style {
+    border: none;
+    background: #a3aebf;
+    box-shadow: inset 0px -2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0.52vw;
+
+    .tab-text {
+        font-family: "Helvetica Neue LT Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.83vw;
+        line-height: 1.71vw;
+        color: #ffffff;
+    }
+}
+.approved-top-tab {
+    background-color: #67b87e;
+    .tab-text {
+        color: #ffffff;
+    }
+}
+.not-approved-top-tab {
+    background-color: #ee8885;
+    .tab-text {
+        color: #ffffff;
+    }
+}
+.not-approved-selected-top-tab {
+    background: #eef2f7;
+    box-shadow: none;
+    .tab-text {
+        color: #ee8885;
+    }
+}
+.approved-selected-top-tab {
+    background: #eef2f7;
+    box-shadow: none;
+    .tab-text {
+        color: #67b87e;
+    }
+}
+.data-images-container {
+    width: -webkit-fill-available;
+}
+.switching-view {
+    position: relative;
+    background-color: #eef2f7;
+    height: 90%;
+    padding: 0.72vw 1.25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-approval {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #141e4f;
+    .approved-icon {
+        font-size: 0.83vw;
+        color: #141e4f;
+        margin-right: 0.5vw;
+    }
+}
+.pending-approval {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #ee8885;
+    .pending-icon {
+        font-size: 0.53vw;
+        color: #ee8885;
+        margin-right: 0.5vw;
+    }
+}
+.approval-status-section {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 2.3%;
+    right: 2.8%;
+}
+
+.step-doc-upload-container {
+    background: #ffffff;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.content-panel {
+    height: 58vh;
+    overflow: auto;
+}
+.content-panel::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+.content-panel::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #eef2f7;
+    border: none;
+}
+
+.content-panel::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #a3aebf;
+}
+
+.tab-icons {
+    font-size: 0.83vw;
+    margin-right: 0.36vw;
+}
+
+// Right Slider Approval Section
+.pdf-file-name {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.72vw;
+    line-height: 0.88vw;
+    color: #748094;
+}
+.search-input {
+    padding: 0.1vw 0.5vw;
+    border: 1px solid #cdd5df;
+    width: 8.07vw;
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.72vw;
+    line-height: 1.71vw;
+    color: #2f3747;
+    margin-left: 0.5vw;
+    
+}
+.small-pdf-view {
+    width: 8.48vw;
+    height: 8.69vw;
+    margin: auto;
+}
+.large-pdf-view {
+    width: 32vw;
+    height: 80%;
+}
+.common-border {
+    background: #ffffff;
+    padding-bottom: 1.04vw;
+}
+.approval-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.72vw 1.04vw;
+}
+.file-details {
+    padding-left: 0.78vw;
+}
+.label-text {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #4c5567;
+    margin-top: 0.72vw;
+}
+.value-text {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.83vw;
+    line-height: 0.98vw;
+    color: #748094;
+}
+.accepted-tabs-info {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.83vw;
+    line-height: 0.98vw;
+    color: #748094;
+    text-align: center;
+}
+.approve-current-doc {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #47835e;
+    text-align: center;
+}
+.approve-current-doc-bg {
+    background: #cff4d8;
+    padding: 0.26vw 0.52vw;
+}
+.approve-all-doc {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #141e4f;
+    text-align: center;
+}
+
+//Bottom Tab Buttons
+.bottom-buttons{
+    // border: 1px solid black;
+    width: -webkit-fill-available;
+}
+.bottom-search-input{
+    border: 1px solid #cdd5df;
+    width: 13vw;
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.72vw;
+    line-height: 1vw;
+    color: #2f3747;
+    margin: 0.5vw;
+}
+.bottom-btn-styles {
+    border: none;
+    padding: 0.72vw 1.2vw;
+    .bottom-tab {
+        position: relative;
+        i {
+            display: none;
+        }
+        .tab-text {
+            font-family: "Helvetica Neue LT Pro";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 0.83vw;
+            line-height: 1.71vw;
+        }
+    }
+}
+.bottom-tab-btn {
+    background: #ffffff;
+    .bottom-tab {
+        .tab-text {
+            color: #141e4f;
+        }
+    }
+}
+.noStepsNotSelected {
+    background: #ffffff;
+    .bottom-tab {
+        .tab-text {
+            color: #ee8885;
+        }
+    }
+}
+
+.noStepsSelectedtab {
+    background: #ee8885;
+    .bottom-tab {
+        i {
+            color: #ffffff;
+            position: absolute;
+            top: -1.1vw;
+            left: 50%;
+            display: block;
+        }
+        .tab-text {
+            color: #ffffff;
+        }
+    }
+}
+
+.selected-bottom-tab {
+    background-color: #141e4f;
+    .bottom-tab {
+        i {
+            color: #ffffff;
+            position: absolute;
+            top: -1.1vw;
+            left: 50%;
+            display: block;
+        }
+        .tab-text {
+            color: #ffffff;
+        }
+    }
+}
+
+:host ::ng-deep {
+    .p-carousel-indicator {
+        display: none;
+    }
+    .p-carousel-prev-icon {
+        color: #ffffff;
+        background-color: blue;
+        border-radius: 50%;
+        font-size: 1vw;
+        opacity: 1;
+    }
+    .p-carousel-indicators {
+        display: none;
+    }
+    .p-carousel-prev,
+    .p-carousel-next {
+        width: 0;
+        height: 0;
+        margin: 0;
+    }
+    .custom-carousel .p-carousel-items-content {
+        display: flex;
+        align-items: end;
+    }
+    .p-tabview-panels,
+    .p-tabview-nav {
+        background-color: transparent;
+        width: inherit;
+    }
+    .p-tabview .p-tabview-nav li:hover {
+        background-color: #e3e8ef;
+    }
+    .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+        background: #67b87e;
+        font-family: "Helvetica Neue LT Pro";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 0.83vw;
+        line-height: 1.71vw;
+        color: #ffffff;
+        padding: 0.46vw 0.62vw;
+    }
+    .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+        background: #e3e8ef;
+        font-family: "Helvetica Neue LT Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.83vw;
+        line-height: 1.71vw;
+        color: #4c5567;
+        padding: 0.46vw 0.62vw;
+    }
+    .p-tabview-nav {
+        border: none;
+    }
+    .small-pdf-view {
+        .ng2-pdf-viewer-container {
+            overflow: hidden;
+        }
+    }
+    .large-pdf-view {
+        .ng2-pdf-viewer-container {
+            overflow: auto;
+        }
+        .ng2-pdf-viewer-container::-webkit-scrollbar {
+            width: 0.7vw;
+        }
+
+        .ng2-pdf-viewer-container::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px #eef2f7;
+            border: none;
+        }
+
+        .ng2-pdf-viewer-container::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px #a3aebf;
+        }
+    }
+}

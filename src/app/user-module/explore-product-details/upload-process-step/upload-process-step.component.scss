@@ -1,0 +1,99 @@
+.upload-info {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 0.98vw;
+    text-align: center;
+    color: #a3aebf;
+}
+
+.uploadedFilename {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.72vw;
+    line-height: 1.71vw;
+    color: #748094;
+    margin: 1.3vw 0;
+}
+
+.showfilename {
+    display: block;
+}
+.hidefilename {
+    visibility: hidden;
+}
+.uploadicon{
+    font-size: 2.11vw;
+        color: #a3aebf;
+}
+
+.remove-icon {
+    color: #ff0000;
+    font-size: 1.2vw;
+}
+.confirm-upload {
+    background-color: #00c839;
+    border: none;
+    padding: 0.46vw 0.72vw;
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #ffffff;
+    margin-bottom: 1.04vw;
+    .confirm-icon {
+        color: white;
+        margin-right: 0.52vw;
+        font-size: 0.83vw;
+    }
+}
+:host ::ng-deep{
+    .p-fileupload {
+        text-align: center;
+    }
+
+    .p-fileupload-choose:not(.p-disabled):active {
+        background: none;
+        color: #0b2257;
+        border-color: red;
+    }
+    .p-fileupload-choose:not(.p-disabled):hover {
+        background: none;
+        color: #0b2257;
+        border-color: red;
+    }
+    .p-fileupload-advanced {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .p-fileupload-content{
+        border: none;
+        padding: 5vw 15vw;
+        margin: 0 10vw;
+        border: 1px dashed #A3AEBF;
+    }
+    .p-fileupload-buttonbar{
+        background: none;
+        border: none;
+    }
+    .p-fileupload-row{
+        display: none;
+    }
+    .p-fileupload-choose{
+        background: none;
+        border: none;
+        padding: 0;
+        text-decoration: underline;
+        font-family: "Helvetica Neue LT Pro";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.83vw;
+        line-height: 0.98vw;
+        color: #a3aebf;
+        letter-spacing: 0px;
+    }
+}

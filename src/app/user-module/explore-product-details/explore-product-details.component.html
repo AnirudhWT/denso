@@ -1,0 +1,160 @@
+<div>
+    <div class="p-d-flex">
+        <div class="main-content">
+            <!-- Top Tab Buttons -->
+            <div *ngIf="globalServices.getSelectedProcess()?.steps?.length != 0">
+                <p-carousel *ngIf="globalServices.getSelectedProcess().steps?.length > 0"
+                    [value]="globalServices.getSelectedProcess().steps" styleClass="custom-carousel" [numVisible]="9"
+                    [numScroll]="1" [responsiveOptions]="responsiveOptions">
+                    <ng-template let-product pTemplate="item">
+                        <button
+                            
+                            class="top-tab-btn-style ellipsis-text {{getToptabColor(product)}}" (click)="selectStep(product)">
+                            <div class="tab-text">
+                                <i class="fas fa-chart-line"></i> {{product.name}}
+                            </div>
+                        </button>
+                    </ng-template>
+                </p-carousel>
+            </div>
+            <div class="no-steps-info" *ngIf="globalServices.getSelectedProcess()?.steps?.length == 0">
+                Upload the Process Step Document to See the Data Tabs
+            </div>
+
+            <!--  Data and Image Switching Section -->
+            <div class="switching-view">
+                <div class="approval-status-section" *ngIf="globalServices.getSelectedProcess()?.steps?.length != 0">
+                   <i class="pi pi-info-circle pending-icon"></i> <span class="pending-approval">Tab Approval Pending</span>
+                    <!-- <i class="pi pi-check-circle approved-icon"></i>  <span class="last-approval">Last Approved : 12-10-2021 </span>  -->
+                    <input class="search-input" type="text" pInputText placeholder="Search" />
+                </div>
+                <div class="data-images-container" *ngIf="globalServices.getSelectedProcess().steps?.length != 0">
+                    <p-tabView (onChange)="handleChange($event)">
+                        <!-- Document data panel -->
+                        <p-tabPanel>
+                            <ng-template pTemplate="header">
+                                <i class="pi pi-calendar tab-icons"></i>
+                                <span>Data</span>
+                            </ng-template>
+                            <div class="content-panel">
+                                <app-data-table></app-data-table>
+                            </div>
+                        </p-tabPanel>
+                        <!-- Document Images Panel -->
+                        <p-tabPanel>
+                            <ng-template pTemplate="header">
+                                <i class="pi pi-user tab-icons"></i>
+                                <span>Images & Diagram</span>
+                            </ng-template>
+                            <div class="content-panel">
+                                <app-images-view></app-images-view>
+                            </div>
+                        </p-tabPanel>
+                    </p-tabView>
+                </div>
+                <div class="step-doc-upload-container"
+                pDroppable="products" (onDrop)="drop($event)"
+                 *ngIf="globalServices.getSelectedProcess().steps?.length == 0">
+                    <app-upload-process-step></app-upload-process-step>
+                </div>
+            </div>
+        </div>
+        <!-- Sliding Rght Sidebar -->
+
+        <app-document-window *ngIf="globalServices.getSelectedProcess()?.steps?.length != 0"
+            (togglePdfWindow)="togglePdfWindow()" [pdfOpened]="pdfOpened" [scrollingContent]="processList">
+            <ng-template #processList>
+
+                <!-- Collapse Case -->
+                <div class="common-border" *ngIf="pdfOpened == false">
+                    <pdf-viewer src="https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf" [zoom]="shrink"
+                        [render-text]="true" [original-size]="false" class="small-pdf-view"></pdf-viewer>
+                    <div class="file-details">
+                        <div class="label-text">Filename :</div>
+                        <div class="value-text">01_Insert Insulation.pdf</div>
+                        <div class="label-text">Document Category :</div>
+                        <div class="value-text">Machine Document</div>
+                        <div class="label-text">Author :</div>
+                        <div class="value-text">DENSO Corporation</div>
+                        <div class="label-text">Uploaded On :</div>
+                        <div class="value-text">23-11-2021 at 12:21:20</div>
+                    </div>
+
+                    <!-- Document Approval Information -->
+                    <div class="common-border approval-container">
+                        <div class="accepted-tabs-info">8 / 10 Tab datas are approved</div>
+                        <div class="approved-document-graph">
+                            <circle-progress [outerStrokeWidth]=8 [innerStrokeColor]="'#e7e8ea'" [innerStrokeWidth]=8
+                                [percent]=80 [radius]=39 [space]=-8 [titleFontSize]="'30'" [titleFontWeight]="'700'"
+                                [showTitle]=true [showUnits]=false [showSubtitle]=false [showImage]=false
+                                [showBackground]=false [showInnerStroke]=true [clockwise]=false [responsive]=false
+                                [startFromZero]=false [showZeroOuterStroke]=true>
+                            </circle-progress>
+                        </div>
+                        <div class="approve-current-doc">
+                            <span class="approve-current-doc-bg">Approve Current Tab Data</span>
+                        </div>
+                        <div class="approve-all-doc">Approve All Tab Data</div>
+                    </div>
+                </div>
+
+                <!-- Expand Case -->
+                <div *ngIf="pdfOpened == true" class="p-d-flex p-jc-between p-ai-center" style="background: #E3E8EF;">
+                    <div class="pdf-file-name">01_Insert Insulation.pdf</div>
+                    <div class="zomm-search-section ">
+                        <i class="fas fa-search-minus" (click)="zoomOut()"></i>
+                        |
+                        <i class="fas fa-search-plus" (click)="zoomIn()"></i>
+                        <input class="search-input" type="text" pInputText placeholder="Search" />
+                    </div>
+                </div>
+                <pdf-viewer *ngIf="pdfOpened == true"
+                    src="https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf" [zoom]="zoom"
+                    [render-text]="true" [original-size]="false" class="large-pdf-view"></pdf-viewer>
+
+                <div *ngIf="pdfOpened == true" class="p-d-flex p-ai-center p-my-3" style="background-color: #FFFFFF;">
+                    <div class="accepted-tabs-info">8 / 10 Tab datas are approved</div>
+                    <div class="approved-document-graph">
+                        <circle-progress [outerStrokeWidth]=4 [innerStrokeColor]="'#e7e8ea'" [innerStrokeWidth]=4
+                            [percent]=80 [radius]=19 [space]=-4 [titleFontSize]="'10'" [titleFontWeight]="'700'"
+                            [showTitle]=true [showUnits]=false [showSubtitle]=false [showImage]=false
+                            [showBackground]=false [showInnerStroke]=true [clockwise]=false [responsive]=false
+                            [startFromZero]=false [showZeroOuterStroke]=true>
+                        </circle-progress>
+                    </div>
+                    <div class="approve-current-doc">
+                        <span class="approve-current-doc-bg">Approve Current Tab Data</span>
+                    </div>
+                    <div class="approve-all-doc">Approve All Tab Data</div>
+                </div>
+            </ng-template>
+        </app-document-window>
+        <app-sliding-side-nav *ngIf="globalServices.getSelectedProcess()?.steps?.length == 0"
+            [scrollingContent]="documentsList" heading="Document Library" orientation='right'>
+            <ng-template #documentsList>
+                <app-document-library></app-document-library>
+            </ng-template>
+        </app-sliding-side-nav>
+    </div>
+
+    <!-- Bottom Tab Buttons -->
+    <div class="p-d-flex p-jc-end" *ngIf="globalServices.getAllProcess()?.length">
+        <div class="bottom-buttons">
+            <p-carousel [value]="globalServices.getAllProcess()" [numVisible]="10" [numScroll]="1"
+            [responsiveOptions]="responsiveOptions">
+            <ng-template let-product pTemplate="item">
+                <button  (click)="selectDoc(product)"
+                class="cursor bottom-btn-styles {{getBottomtabColor(product)}}">
+                    <div class="bottom-tab">
+                        <i class="fas fa-caret-down"></i>
+                        <div class="tab-text">
+                            {{product.name}}
+                        </div>
+                    </div>
+                </button>
+            </ng-template>
+        </p-carousel>
+        </div>
+        <input class="bottom-search-input" type="text" pInputText placeholder="Search Process" />
+    </div>
+</div>

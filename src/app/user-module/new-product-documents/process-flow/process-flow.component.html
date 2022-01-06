@@ -1,0 +1,7 @@
+<div class="p-grid" (click)="goToExplorePage()">
+    <div pDroppable="products" (onDrop)="drop($event)" 
+    (click)="setProcess(item)"
+    class="p-col-3 {{ item.document?.length > 0 ? 'have-docs' : 'have-no-docs'}}" 
+    *ngFor="let item of allProcess">
+        <div class="cursor" >{{item.name}}</div>
+    </div>

@@ -1,0 +1,20 @@
+<div
+    class="side-nav-container {{ orientation == 'left' ? 'left-oriented' : 'right-oriented'}} {{ openedNav == false ? 'hidden-nav' :''}}">
+    <i class="cursor pi  {{ orientation == 'left' ? 
+                    openedNav == false ? 'pi-arrow-circle-right' :'pi-arrow-circle-left' :
+                    openedNav == false ? 'pi-arrow-circle-left' :'pi-arrow-circle-right'}}"
+        (click)="toggleNav()"></i>
+        <div class="nav-header">
+            {{heading}}
+        </div>
+        <div class="content-box">
+            <div>
+                <input class="search-input" type="text" pInputText placeholder="Search" />
+            </div>
+            <div class="scroll">
+                <ng-container
+                *ngTemplateOutlet="scrollingContent"></ng-container>
+            </div>
+            
+    </div>
+</div>

@@ -1,0 +1,95 @@
+{
+    "processes":[
+        {
+            "name":"Straigtenning",
+            "document":[],
+            "steps":[
+                {
+                    "name":"Process Specs",
+                    "approved":true
+                },
+                {
+                    "name":"Equipment",
+                    "approved":false
+                },
+                {
+                    "name":"Tools",
+                    "approved":true
+                },
+                {
+                    "name":"Processing Conditions",
+                    "approved":false
+                },
+                {
+                    "name":"Working Methods",
+                    "approved":true
+                },
+                {
+                    "name":"Control State",
+                    "approved":false
+                }
+            ],
+            "reference":1
+        },
+        {
+            "name":"Peeling & Cutting",
+            "document":[],
+            "steps":[],
+            "reference":2
+        },
+        {
+            "name":"Conductor Moulding",
+            "document":[],
+            "steps":[],
+            "reference":3
+        },
+        {
+            "name":"Conductor alignment",
+            "document":[],
+            "steps":[],
+            "reference":4
+        },
+        {
+            "name":"Cuffs Assembling",
+            "document":[],
+            "steps":[
+                {
+                    "name":"Process Specs",
+                    "approved":true
+                },
+                {
+                    "name":"Equipment",
+                    "approved":true
+                },
+                {
+                    "name":"Tools",
+                    "approved":false
+                },
+                {
+                    "name":"Processing Conditions",
+                    "approved":true
+                },
+                {
+                    "name":"Working Methods",
+                    "approved":false
+                },
+                {
+                    "name":"Control State",
+                    "approved":true
+                }
+            ],"reference":5
+        },
+        {
+            "name":"Insulation Modeling",
+            "document":[],
+            "steps":[],
+            "reference":6
+        },
+        {
+            "name":"Insutlation Insertion",
+            "document":[],
+            "steps":[],
+            "reference":7
+        }
+    ]
+}

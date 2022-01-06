@@ -1,0 +1,1252 @@
+{
+  "one": "1",
+  "two": "2",
+  "three": "3",
+  "five": "5",
+  "next": "next",
+  "back": "back",
+  "at": "at",
+  "colon": ":",
+  "createdOn": "createdOn",
+  "point": ".",
+  "header": {
+    "newCampaign": "NEW CAMPAIGN"
+  },
+  "sidenav":
+  {"agencyOptions":[
+      {
+        "text": "Home"
+      },
+      {
+        "text":"Explore Influencers"
+      },
+      {
+        "text": "Manage Campaigns"
+      },
+      {
+        "text": "Manage Company"
+      },
+      {
+        "text": "Campaign Engagement"
+      }
+      
+    ],
+  "influencerOptions":[
+      {
+        "text": "Home"
+      },
+      {
+        "text": "Campaign Engagements"
+      }],
+      "home": "Home",
+      "exploreInfluencers":"Explore Influencers",
+      "manageCampaigns": "Manage Campaigns",
+      "manageCompany": "Manage Company",
+      "engagementCenter": "Engagement Center",
+      "campaignEngagements": "Campaign Engagements",
+      "myProfile": "My Profile",
+      "discoverInfluencers": "Discover Influencers",
+      "savedList": "Saved List"
+  }
+  ,
+  "footer":{
+     "termsText":"Term of use | Privacy policy",
+     "copyrightText":" 2021 Qritrim Inc."
+  },
+  "exploreInfluencers":{
+    "heading":"Explore Influencers",
+    "subHeading":"Explore a huge numbers of influencers across various channels.",
+    "tableHeaders":{
+      "followers":"Followers",
+      "posts":"Posts",
+      "subscribers":"Subscribers",
+      "tweets":"Tweets",
+      "views":"Views",
+      "comments":"Comments",
+      "engagementRate":"Engagement"
+    },
+    "channelList":[
+      {"label":"Youtube"},
+      {"label":"Instagram"},
+      {"label":"Twitter"}
+    ],
+    "filterInfuencers":"Filter Influencers",
+    "filterInfuencersBtn": "Filter Influencers",
+    "resetFilters":"Reset Filters",
+    "filter":"Filter",
+    "search":"Search",
+    "followerCount":"Follower Count",
+    "totalPostCount":"Total Post Count",
+    "viewCount":"View Count",
+    "commentCount":"Comment Count" ,
+    "engagementRate":"Engagement"
+  },
+  "agencyLanding":{
+     "resumelastacitivity":"resume last activity",
+     "expploreinfluencers":"EXPLORE INFLUENCERS",
+     "manageCompany":"MANAGE COMPANY",
+     "campaignsofar":"campaigns so far.",
+     "zero":"0",
+     "letsgiveitastart":"let's give it a start.",
+     "manage":"manage",
+     "campaigns":"campaigns",
+     "newcampaign":"New Campaign",
+     "isjust3-stepsaway":"is just 3-steps away.",
+     "creatinga":"Creating a",
+     "createnew":"CREATE NEW",
+     "campaign":"CAMPAIGN",
+     "startsomething":"start something",
+     "itsagooddayto":"Its a good day to",
+     "remarkable":"remarkable",
+     "getDiscoveredBy":"GET DISCOVERED BY",
+     "theBrandThat":"THE BRANDS THAT",
+     "youLike":"YOU LIKE",
+     "hi": "Hi",
+     "campaignInvites": "CAMPAIGN INVITES",
+     "engageWithBrands": "ENGAGE WITH BRANDS",
+     "createNewCampaign":{
+              "createnew":"CREATE NEW",
+              "campaign":"CAMPAIGN",
+              "5-8min":"5-8 min",
+              "myProfile": "My Profile"
+     }
+  },
+  "companyProfilePage":{
+     "searchPlaceholder":"SEARCH CAMPAIGNS, INFLUENCERS, BRANDS, ETC.",
+     "uploadOn":"Uploaded On",
+     "createdOn": "Created On",
+     "createdon": "Created on",
+     "brands":"Brands",
+     "noofBrands":"No. of Brands",
+     "socialReach":"Social Reach",
+     "campaigns":"Campaigns",
+     "inProgress": "In Progress",
+     "tableHeaders":{
+       "brandName":"Brand Name",
+       "campaignName":"Campaign Name",
+       "objective":"Objective",
+       "influencerEngaged":"Influencer Engaged",
+       "channels":"Channels",
+       "category":"Category"
+     }
+  },
+  "selectInfluencer":{
+     "heading":"Select Influencer",
+     "campNamelabel":"Campaign Name",
+     "editBtnText":" Edit Campaign Criteria",
+     "attributes":"Attributes",
+     "getScore":"Get Score",
+     "inviteSelected":"Invite Selected",
+     "allChannels":"All",
+     "searchMore":"Search For more influencers",
+     "search":"Search",
+     "channelList":[
+      {"label":"Youtube"},
+      {"label":"Instagram"},
+      {"label":"Twitter"}
+     ],
+     "tableHeaders":{
+      "totalFollowers":"Followers",
+      "totalSubscribers":"Total Subscribers",
+      "engagementScore":"Engagement Score",
+      "audienceMatchScore":"Audience Match Score",
+      "attributeMatchScore":"Attribute Match Score",
+      "selectInfluencer":"Select Influencer(s)"
+     },
+     "tableHeadersTootips":{
+      "totalFollowers":"The Total Followers / Subscribers count as per selected channel",
+      "totalSubscribers":"The Total Followers / Subscribers count as per selected channel",
+      "engagementScore":"Channel Specific engagement per post as per the channel selection",
+      "audienceMatchScore":"Score indicating match of audience criteria selected during campaign creation with influencer's audience",
+      "attributeMatchScore":"Score Indicating the Attributes",
+      "selectInfluencer":"Select one or more influencer(s) to invite to the campaign"
+     },
+     "editCampaignForm":{
+        "category":{
+           "label":"Category",
+           "placeholder":"Select Category",
+           "errorMessage":"Mandatory Field"
+        },
+        "geography":{
+           "label":"Geography",
+           "placeholder":"Select Geogrpahy",
+           "errorMessage":"Mandatory Field"
+        },
+        "timeline":{
+           "label":"Timeline",
+           "fromErrorMessage":"Mandatory Field",
+           "toErrorMessage":"Mandatory Field"
+        },
+        "budget":{
+           "label":"Budget",
+           "maxErrorMessage":"Mandatory Field",
+           "minErrorMessage":"Mandatory Field"
+        },
+        "ageGroup":{
+           "label":"Age Group",
+           "placeholder":"Select Age Group",
+           "errorMessage":"Mandatory Field"
+        },
+        "ethnicity":{
+           "label":"Ethnicity",
+           "placeholder":"Select Ethnicity",
+           "errorMessage":"Mandatory Field"
+        },
+        "keywords": {
+          "label":"Keywords / Tags",
+          "placeholder":"Enter Keywords / Tags",
+          "errorMessage":"Mandatory Field"
+        },
+        "genderField": {
+          "label":"Gender",
+          "placeholder":"Select Gender",
+          "errorMessage":"Mandatory Field"
+        },
+        "gender":"Gender",
+        "male":"Male",
+        "female":"Female",
+        "neutral":"Neutral",
+        "brandAffinity":{
+           "label":"Brand Affinity",
+           "placeholder":"Select Brand Affinity",
+           "errorMessage":"Mandatory Field"
+        },
+        "submitBtn":"Update Criteria"
+     },
+     "invited":"invited",
+     "invitationrequestsuccessfullySent":"Invitation Request Successfully Sent",
+     "errorOccured":"Error Occured",
+     "youHaveSelected":"You've selected",
+     "clickOnInvite":"influencer(s). Click on 'Invite Selected' to send an invitation",
+     "hideAlreadyInvited":"Hide Already Invited",
+     "filters": "Filters:",
+     "followerCount": "Follower Count",
+     "engagementScore": "Engagement Score",
+     "audienceMatchScore": "Audience Match Score",
+     "attributeMatchScore": "Attribute Match Score",
+     "scoreModifiers": "Score Modifiers:"
+  },
+  "createCampaign": {
+    "new": "Create New ",
+    "camp": "Campaign",
+    "campHeading": "Create New Campaign",
+    "campDetInstr0": "Please fill up the basic details of your Campaign",
+    "campDetInstr1": "Create or select an existing audience profile for the campaign",
+    "campDetInstr2": "Review the key highlights of your campaign",
+    "errorMessages": {
+      "cbkiForm": {
+        "summary": "Enter Campaign Basic Details",
+        "detail": "Please provide the values in all mandatory fields"
+      },
+      "objectiveForm": {
+        "summary": "Select a campaign objective",
+        "detail": "Please choose an objective"
+      },
+      "ctbpForm": {
+        "summary": "Set Campaign Timeline & Budget",
+        "detail": "Please provide the values in all mandatory fields"
+      },
+      "targetAudienceForm": {
+        "summary": "Target Audience",
+        "detail": "Please provide the values in all mandatory fields"
+      },
+      "ciaForm": {
+        "summary": "Select Campaign Type & Attributes",
+        "detail": "Please provide the values in all mandatory fields"
+      },
+      "criuForm": {
+        "summary": "Keywords, Tags",
+        "detail": "Please provide the values in all mandatory fields"
+      }
+    },
+    "tabs": {
+      "campDet": "Campaign Details",
+      "inflDet": "Campaign Criteria",
+      "campSumm": "Campaign Summary",
+      "campDetAcc": {
+        "selectStart": "Select a campaign objective",
+        "timeBudget": "Set Campaign Timeline & Budget",
+        "brandKey": "Enter Campaign Basic Details",
+        "selectStartAcc": {},
+        "timeBudgetAcc": {
+          "startScratch": "Start from Scratch",
+          "selectCamp": "Select from a campaign template :",
+          "selectTemplate": "Select an Existing Campaign Template",
+          "uploadNewCom": "+ Upload a New Company",
+          "uploadNewBrand": "+ Upload a New Brand",
+          "keywordsTool": "Type and Enter to add a keyword",
+          "campName": {
+            "label": "1. What's your campaign name?",
+            "placeholder": "New Beauty Product Launch",
+            "message": "This is a mandatory field"
+          },
+          "companyName": {
+            "label": "2. Select a company name :",
+            "placeholder": "Select a Company Name",
+            "message": "This is a mandatory field"
+          },
+          "campBrand": {
+            "label": "3. Select a brand name :",
+            "placeholder": "Select a Brand Name",
+            "message": "This is a mandatory field"
+          },
+          "categories": {
+            "label": "4. Select campaign Category / Industry :",
+            "placeholder": "Select a Campaign Category",
+            "message": "This is a mandatory field"
+          },
+          "targetRegions": {
+            "label": "5. Target Geographies / Region(s) :",
+            "placeholder": "Select Geography / Region",
+            "message": "This is a mandatory field"
+          },
+          "ques_enterKeywords": "6. Enter Keywords, Tags :",
+          "place_enterKeywords": "Type Keywords, Tags",
+          "message": "This is a mandatory field"
+        },
+        "interestDetails": {
+          "timeline": {
+            "label": "6. What's the timeline of your campaign ?",
+            "fromLabel": "From :",
+            "toLabel": "To :",
+            "fromPlaceholder": "dd/mm/yyyy",
+            "toPlaceholder": "dd/mm/yyyy",
+            "message": "This is a mandatory field"
+          },
+          "budget": {
+            "label": "7. Allocated budget for the influencer :",
+            "minLabel": "min. :",
+            "maxLabel": "max. :",
+            "message": "This is a mandatory field",
+            "maxError": "Max value should be greater then min value",
+            "minError": "Negitive values not allowed",
+            "budgetError": "Minimum budget: $1.00 and Maximum budget: $10M"
+          },
+          "channel": {
+            "label": "8. Choice of channel(s) for campaign ?",
+            "message": "This is a mandatory field"
+          }
+        }
+      },
+      "inflDetAcc": {
+        "campaignType": "Select Campaign Type & Attributes",
+        "audienceProfile": "Target Audience",
+        "competitors": "Keywords, Tags",
+        "campaignTypelabels": {
+          "selectCampType": "Select Campaign Type",
+          "selectInfType": "Select influencer Type",
+          "selectTop5Attributes": "Select Top 5 Attributes",
+          "potentialReach": "Potential Reach",
+          "campaignsDoneTogetherWith": "campaigns done together with",
+          "ONE-TO-ONE": "ONE-TO-ONE",
+          "ONE-TO-MANY": "ONE-TO-MANY",
+          "otoInfo": "For One-to-One campaigns, you can define & negotiate campaign terms as influencer accepts the campaign invitation.",
+          "otmInfo": "For One-to-Many campaigns, it is mandatory to upload a Statement of Work ( SoW ).",
+          "otmUpload": "Upload SoW Document",
+          "docUploaded": "Document Uploaded",
+          "docNotUploaded": "No Document Found",
+          "selectAnAttribute": "Select an attribute"
+        },
+        "targetAudience": {
+          "name": {
+            "label": "1. Select an Audience Profile Name :",
+            "placeholder": "Type a New audience profile name or select",
+            "message": "This is a mandatory field"
+          },
+          "agePref": {
+            "label": "2. Age Group Preferences :",
+            "placeholder": "Select Age Group",
+            "message": "This is a mandatory field"
+          },
+          "genderPref": {
+            "label": "4. Gender Preferences ?",
+            "placeholder": "Select Gender Preference",
+            "message": "This is a mandatory field"
+          },
+          "ethnicalPref": {
+            "label": "3. Ethnical Preferences :",
+            "placeholder": "Select Ethnicity",
+            "message": "This is a mandatory field"
+          },
+          "brandAffinity": {
+            "label": "5. Brand Affinity :",
+            "placeholder": "Select Brand Affinity",
+            "message": "This is a mandatory field"
+          },
+          "saveAudienceProfile": {
+            "label": "Save this as New Audience Profile",
+            "message": "This is a mandatory field"
+          }
+        },
+        "competitorsRelevant": {
+          "brandCompetitor": {
+            "label": "9. Enter brand's competitor URLs:",
+            "placeholder": "Type URLs here",
+            "message": "This is a mandatory field"
+          },
+          "relevantInfluencer": {
+            "label": "10. Enter relevant influencer links:",
+            "placeholder": "Type URLs here",
+            "message": "This is a mandatory field"
+          }
+        }
+      },
+      "campSummAcc": {
+        "congs": "Congratulations!",
+        "allSet": "You're all set to go.",
+        "getSt": "Go to Select Influencer",
+        "saveNewCampTem": "Save this as New Campaign Template",
+        "campaignName" : "Campaign Name",
+        "company" : "Company",
+        "brand" : "Brand",
+        "objective" : "Objective",
+        "region" : "Region",
+        "category" : "Category",
+        "budget" : "Budget",
+        "timeline" : "Timeline",
+        "influencerProfile": "Influencer Profile",
+        "audienceProfile" : "Audience Profile"
+      }
+    }
+  },
+  "uploadCompany": {
+    "uploadCompanyHeading": "Upload Company / Brand Data",
+    "sucUploadCompanyHeading": "Data Upload Successful",
+    "uploadDetInstr": "Please fillup the details below to onboard a new company / brand",
+    "uploadDetSubmittedInstr": "You may continue to upload or manage companies data.",
+    "reset": "Reset",
+    "submit": "Submit",
+    "multipleBrand": "Upload Multiple Brands?",
+    "uploadLogo": "Upload Logo",
+    "mustbejpg/png256x255&below1MB":"Must be in .jpeg / .jpg / .png 256 x 256 & below 1 MB",
+    "companyDetalis": {
+      "companyDetailsLabel": "Enter the basic details of the Company / Brand",
+      "companyName": {
+        "label": "1. What is the Company Name?",
+        "placeholder": "Example Nike Inc. or Apple Inc.",
+        "message": "This is a mandatory field",
+        "nameAlreadyEx": "Name already exists"
+      },
+      "brandName": {
+        "label": "2. What is the name of the Brand?",
+        "placeholder": "Type the name of the Brand",
+        "message": "This is a mandatory field"
+      },
+      "catIndSegment": {
+        "label": "3. Select the Brand Category/Industry segment :",
+        "placeholder": "Select a Category/Industry",
+        "message": "This is a mandatory field"
+      }
+    },
+    "brandDetails": {
+      "brandDetailsLabel": "Contact details of the Brand",
+      "priPointCon": {
+        "label": "4. Primary point of contact :",
+        "placeholder": "Name of the primary contact point",
+        "message": "This is a mandatory field"
+      },
+      "priPointnum": {
+        "label": "5. Primary contact number :",
+        "placeholder": "10 - digit contact no.",
+        "message": "This is a mandatory field"
+      },
+      "priConEmail": {
+        "label": "6. Enter primary contact email :",
+        "placeholder": "Enter the primary contact's E-mail ID",
+        "message": "This is a mandatory field"
+      }
+    },
+    "socialMediaDetails": {
+      "socialMediaDetailsLabel": "Website, Social Media details",
+      "websiteUrl": {
+        "label": "10. Website Link / URL ",
+        "placeholder": "https://brandname.com",
+        "message": "This is a mandatory field"
+      },
+      "socialMedia": {
+        "channel": {
+          "label": "",
+          "placeholder": "Select",
+          "message": "This is a mandatory field"
+        },
+        "channelUrl": {
+          "label": "",
+          "placeholder": "Enter a valid link here",
+          "message": "This is a mandatory field"
+        }
+      }
+    },
+    "uploadSuccess": {
+      "cong": "Congratulations!",
+      "succUpload": "You've successfully uploaded the details of",
+      "bcLabel": "brand / companies.",
+      "takeFrist": "Take the first step in",
+      "CreatCampaign": "Creating a New Campaign.",
+      "uploadBrand": "Upload New Brand",
+      "goToManageComp": "Go to Manage Company"
+    },
+    "uploadDialog": {
+      "heading": "Upload Multiple Brands Data",
+      "subHeading": "Kindly download the multiple Brand data upload template.",
+      "downTemp": "Download Template",
+      "confirmUpload": "Confirm Upload",
+      "ddLabel1": "Drag and drop the filled up",
+      "ddLabel2": "Brand details template to upload",
+      "or": "Or,",
+      "selectFile": "Select File"
+    },
+    "errorMessages": {
+      "comDetForm": {
+        "summary": "Enter the basic details of the Company / Brand",
+        "detail": "Please provide the values in all mandatory fields"
+      },
+      "brandContDetForm": {
+        "summary": "Contact Details of the Brand",
+        "detail": "Please provide the values in all mandatory fields"
+      },
+      "socialMedForm": {
+        "summary": "Website, Social Media Details",
+        "detail": "Please provide the values in all mandatory fields"
+      },
+      "uploadComLogo": {
+        "summary": "Upload Company Logo",
+        "detail": "Upload failed"
+      },
+      "uploadBLogo": {
+        "summary": "Upload Brand Logo",
+        "detail": "Upload failed"
+      }
+    }
+  },
+  "loginPage": {
+    "loginSwitchData": {
+      "agency":{
+        "defaultLabel": "Agency",
+        "checkedLabel": "I am",
+        "label2": "Agency",
+        "label1": "I am"
+      },
+      "brand":{
+        "defaultLabel": "brand",
+        "checkedLabel": "I am",
+        "label2": "brand",
+        "label1": "I am"
+      },
+      "influencer":{
+        "defaultLabel": "influencer",
+        "checkedLabel": "I am an",
+        "label2": "Influencer",
+        "label1": "I am an"
+      }
+    },
+    "loginData": {
+      "agency": {
+        "label1": "Sign into",
+        "label2": "Agency Account",
+        "placeholder1": "Username",
+        "placeholder2": "Password"
+      },
+      "brand": {
+        "label1": "Sign into",
+        "label2": "Brand Account",
+        "placeholder1": "Username",
+        "placeholder2": "Password"
+      },
+      "influencer": {
+        "label1": "Sign Up to QIVR",
+        "label2": "",
+        "navigationLabel": "Already have an Account"
+      },
+      "influencerSignUp": {
+        "label1": "Sign Up with Email",
+        "label2": "",
+        "placeholder1": "Enter Email ID",
+        "placeholder2": "Create Password",
+        "navigationLabel": "Already have an Account"
+      },
+      "influencerSignIn": {
+        "label1": "Sign In",
+        "label2": "",
+        "placeholder1": "Enter Email ID",
+        "placeholder2": "Password",
+        "navigationLabel": "Sign Up Using E-Mail"
+      },
+      "forgotPassword": {
+        "label1": "Reset",
+        "label2": "Password",
+        "placeholder1": "Enter your E-mail here",
+        "navigationLabel": "Back to Sign In"
+      },
+      "resetPassword": {
+        "label1": "Reset",
+        "label2": "Password",
+        "placeholder1": "Enter your new password"
+      },
+      "socialLoginOptions": {
+        "google": "Sign Up Using Google",
+        "facebook": "Sign In Using Facebook",
+        "twitter": "Sign In Using twitter"
+      }
+    },
+    "Sign Up as": "Sign Up as",
+    "Reset": "Reset",
+    "back": "back",
+    "Sign In Using Google": "Sign In Using Google",
+    "Sign In Using Facebook": "Sign In Using Facebook",
+    "Sign In Using twitter": "Sign In Using twitter",
+    "Enter your new password": "Enter your new password",
+    "Agency": "Agency",
+    "Enter your E-mail here":"Email Address",
+    "Brand": "Brand",
+    "I am an": "I am an",
+    "Influencer": "Influencer",
+    "Agency Account": "Agency Account",
+    "Sign into": "Sign into",
+    "Brand Account": "Brand Account",
+    "Sign In as": "Sign In as",
+    "signInUsingEMail": "SIGN UP USING E-MAIL",
+    "Sign In Using": "Sign In Using",
+    "E-Mail": "E-Mail",
+    "Google": "Google",
+    "Facebook": "Facebook",
+    "Twitter": "Twitter",
+    "forgotpassword": "Forgot password?",
+    "password": "Password",
+    "signUp": "Sign Up",
+    "signIn": "Sign In",
+    "Username": "Username",
+    "social login": "social login",
+    "Password": "Password",
+    "qritrimInc": "Qritrim Inc",
+    "resetPassword": "Reset Password",
+    "createNewPassword": "Create New Password",
+    "submit": "Submit",
+    "requestingForEmail": "Password reset instruction has been sent to your email.",
+    "createNewpwSuc": "Password reset successfully. Sign in to continue",
+    "Create": "Create",
+    "New Password": "New Password",
+    "Confirm password": "Confirm password",
+    "or": "OR"
+  },
+  "manageCompany":{
+     "heading":"Manage Company",
+     "subHeading":"Manage all the uploaded companies at one place.",
+     "createBtnText":"Upload New Company",
+     "searchPlaceholder":"TYPE A COMPANY NAME TO SEARCH",
+     "tableHeaders":{
+      "companyName":"Name of the Company",
+      "brandsAssociated":"Brands Associated",
+      "totalCampaigns":"Total Campaigns",
+      "activeCampaigns":"Active Campaigns",
+      "draftCampaigns":"Draft Campaigns"
+     },
+     "filterBtns":[
+        {
+           "label":"Companies Onboarded"
+        },
+        {
+           "label":"Total No. of Campaigns"
+        },
+        {
+           "label":"Influencers Engaged"
+        },
+        {
+           "label":"Active Campaigns"
+        }
+     ],
+     "more":"more"
+  },
+  "manageCampaigns":{
+     "heading":"Manage Campaigns",
+     "subHeading":"Manage all the campaigns at one place.",
+     "createBtnText":"New Campaign",
+     "searchPlaceholder":"SEARCH CAMPAIGNS, INFLUENCERS, BRANDS ,ETC.",
+     "tableHeaders":{
+      "campaignName":"Campaign Name",
+      "brand":"Brand",
+      "status":"Status",
+      "influencerEngaged":"Influencer Engaged",
+      "channels":"Channels",
+      "category":"Category"
+     },
+     "filterBtns":[
+        {
+           "label":"Total Campaigns"
+        },
+        {
+           "label":"Active Campaigns"
+        },
+        {
+           "label":"Campaigns in Negotiation with Influencer"
+        },
+        {
+           "label":"Campaigns Waiting for Influencer Selection"
+        }
+     ],
+     "more":"more",
+     "inProgress":"In Progress",
+     "createdOn":"Created on"
+  },"influencerdashboard":{
+    "heading":"Welcome",
+    "subHeading":"Manage all the campaigns at one place.",
+    "searchPlaceholder":"Search campaigns, brands, agencies, categories etc.",
+    "tableHeaders":{
+     "campaignName":"Campaign Name",
+     "campaignBrand":"Campaign Brand",
+     "category":"Category",
+     "timeline":"Timeline",
+     "budget":"Budget",
+     "action":"Action"
+    },
+    "filterBtns":[
+       {
+          "label":"All Campaign Requests"
+       },
+       {
+          "label":"Active Campaigns"
+       },
+       {
+          "label":"Campaigns in Negotiation"
+       },
+       {
+          "label":"Unread Messages"
+       }
+    ],
+    "invitedBy":"Invited By",
+    "createdOn":"Created On",
+    "accept":"Accept",
+    "decline":"Decline",
+    "engage": "Engage"
+ },
+  "influencerProfileDetails": {
+    "graphLabels":{
+      "hastagCount":"Hashtag Count",
+      "mentionCount":"Mention Count",
+      "languageProfile":"Language Profile"
+    },
+    "tabs":{
+      "socialProfile":"Social Profile",
+      "audienceProfile":"Audience Insight",
+      "channelFeeds":"Channel Feeds"
+    },
+    "influencerProfileBio": {
+      "invite": "INVITE",
+      "alreadyInvited":"Already Invited",
+      "category": "Category :",
+      "tags": "Tags :",
+      "language": "Language :",
+      "audienceBrandAffinity": "Audience Brand Affinity :",
+      "edit": "Edit Profile"
+    },
+    "influencerReachData": {
+      "audienceMatch": "Audience Match",
+      "socialReach": "Social Reach",
+      "engagement": "Engagement",
+      "manageCampaigns": "Manage Campaigns",
+      "viewMoreInfluencer": "View More Influencer",
+      "campaignsEngaged":"Campaigns Engaged"
+    },
+    "influencerTabs": {
+      "socialProfile": "Social Profile",
+      "audienceInsight": "Audience Insight",
+      "channelFeed": "Channel Feed"
+    },
+    "influencerChannels": {
+      "YouTube": "YouTube",
+      "Instagram": "Instagram",
+      "Facebook": "Facebook",
+      "Twitter": "Twitter",
+      "Line": "Line"
+    },
+    "influencerSocialProfile": {
+      "subscriberGrowth": "Subscriber's Trend",
+      "postsvsViewsGrowth": "Posts vs. Views",
+      "postSelectPh": "Select Top Posts",
+      "totalFollowers": "Total Followers",
+      "totalSubscribers":"Total Subscribers",
+      "engagementRate": "Engagement Rate",
+      "totalUploads": "Total Uploads",
+      "totalComments": "Total Comments",
+      "uploadsWeek": "Uploads / Week",
+      "categoriesWiseEngagement": "Categories Wise Engagement",
+      "music": "Music",
+      "fitness": "Fitness",
+      "sports": "Sports",
+      "beauty": "Beauty",
+      "posts": "POSTS",
+      "likes": "LIKES",
+      "top": "Top",
+      "categories": "Categories",
+      "1w":"1 W",
+      "1m":"1 M",
+      "3m":"3 M",
+      "topPostFromLastWeek":"Top post from last week",
+      "topPostFromLastMonth":"Top post from last month",
+      "topPostFromLast3Month":"Top post from last 3 month"
+    },
+    "relatedInfluencers": {
+      "relatedInfluencers": "Related Influencers",
+      "viewMore": "View More"
+    },
+    "audienceInsight": {
+      "audienceBrandAffinity": "Audience Brand Affinity",
+      "audienceLanguageProfile": "Audience Language Profile",
+      "genderAgeDistribution": "Gender & Age Distribution",
+      "geographicalDistribution": "Geographical Distribution",
+      "male": "Male",
+      "female": "Female",
+      "age":"Age Distribution"
+    },
+    "channelFeeds": {
+      "topBrandMentions": "Top 10 Brand Mentions",
+      "topHashTagsUsed": "Top 10 Hash Tags Used",
+      "keywordsTagsInterests": "Keywords, Tags, Interests",
+      "latestUploads": "Latest Uploads",
+      "latestTweets":"Latest Tweets",
+      "latestPosts":"Latest Posts",
+      "titleNotAvailable":"Title Not Available"
+    },
+    "inviteInfluencer": {
+      "success":{
+        "title": "Hurrah !",
+      "subTitle": "Invitation sent successfully.",
+      "description":"You will get a notification as soon as the influencer responds."
+      },
+      "missingmultipleIds":{
+        "title":"Thank you",
+      "subTitle":"for your interest.",
+      "description":"We will confirm the invitation shortly as we hear from the influencer(s)."
+    },
+      "missingSingleId":{
+        "title":"That's awesome !",
+      "subTitle":"You've done your job.",
+      "description":"We are reviewing your request and will be confirmed shortly."
+    },
+      "invMore": "Invite more",
+      "convCenter": "Go to Engagement Center",
+      "campDet": "Go to Campaign Details"
+    }
+  },
+  "engagement": {
+    "emptyClauseMsg":"It's lonley here.Starting by adding a Custom Clause or Loading Clause from Template below.",
+    "header":"Engagement Center",
+    "instruction":"Discuss, Negotiate, Review & Seal the deal for your campaign.",
+    "dashB":"Dashboard",
+    "search":"Search",
+    "infl":"Influencer",
+    "category":"Category :",
+    "timel":"Timeline :",
+    "targetGeo":"Target Geography :",
+    "campId":"Campaign ID :",
+    "newInfl":"New Influencer",
+    "newCamp": "New Campaigns",
+    "actCamp": "Active Campaigns",
+    "brand": "Brand",
+    "agency": "Agency",
+    "actInfl":"Active Influencer",
+    "arch":"Archived",
+    "savedN":"Saved Notes",
+    "remnd":"Reminders",
+    "starredMsg":"Starred Messages",
+    "filterCat":"Filter Categories",
+    "type":"Type Here",
+    "gotoCampObj": "Go To Campaign Objective",
+    "reviewCampTerms": "Review Campaign Terms",
+    "respondedvia": "Responded via",
+    "readMore": "READ MORE",
+    "readLess": "READ LESS",
+    "nodata": "No Data",
+    "addRem": "ADD A REMINDER",
+    "selectDataTime": "SELECT A DATE & TIME",
+    "save": "SAVE",
+    "send": "SEND",
+    "setRytExp": "Set the right expectations before anything.",
+    "discussScope": "Discuss the scope of work for your campaign objective.",
+    "infSetRytExp": "Review Clauses. Share Suggestions. Accept and Confirm",
+    "infDiscussScope": "Discuss your scope of work with regards to the Campaign Objective",
+    "campObj": "Campaign objective",
+    "typeObj": "Type",
+    "saveItAsNewTem": "Save it As New Template",
+    "loadClause": "Load Clauses from Template",
+    "AddCustomCla": "Add Custom Clause",
+    "sendForReview": "Send for review",
+    "confGo": "Confirm & go next",
+    "selectAnExTem": "Select an existing terms template to load",
+    "tempPlaceholder": "Type a template name to search",
+    "tempName": "Template Name",
+    "loadSelectTem": "Load Selected Template",
+    "to":"to",
+    "at":"at",
+    "-":"-",
+      "defineObjectives":"Define Objective",
+      "reviewTerms":"Review Terms",
+      "sharedCollateral":"Share Collateral",
+      "campaignLinks":"Campaign Links",
+      "writeSomething": "Write Something"
+  },
+  "errorMessages": {
+    "loginFieldReqd": "This field is mandatory",
+    "fieldReqd": "This field is mandatory",
+    "fieldemail": "You have not provided valid Email",
+    "Campaign Name is Already Existing!": "Campaign Name Already Exist.",
+    "nameAlreadyEx": "Name already exists",
+    "campaignName": "Campaign Name",
+    "loginPage": {
+      "signIn": {
+        "summary": "Sign in Failed",
+        "msgDetail": "You have not provided valid credentials",
+        "Email Id Already Registered": "Email Id Already Registered"
+      },
+      "createNewpwSuc": {
+        "summary": "Reset Success",
+        "msgDetail": "Password reset successfully. Sign in to continue"
+      },
+      "createNewpwErr": {
+        "summary": "Reset Failed",
+        "msgDetail": "",
+        "comfirm": "Password and Confirm Password must match",
+        "pattern": "Please enter valid password with minimum of 8 characters. Like Ex: Atest123"
+      },
+      "resetPwErr": {
+        "summary": "Reset Failed",
+        "msgDetail": "You have not provided valid email"
+      }
+    },
+    "urlInvalid": "URL is invalid."
+  },
+  "campaignDetails": {
+    "camp": "camp",
+    "createdFor": "Created for",
+    "campaignFor": "Campaign for",
+    "createdOn": "Created On",
+    "status": "Status",
+    "objective": "Objective",
+    "invitedBy":"Invited By",
+    "budget":"Budget",
+    "acceptInvitation":"Accept Invitation",
+    "declineInvitation":"Decline Invitation",
+    "negotialble":"negotialble",
+    "region": "Region",
+    "category": "Category",
+    "timeline": "Timeline",
+    "type": "Type",
+    "conversions": "Conversions",
+    "sales": "Sales",
+    "influencers": "Influencers",
+    "audienceProfile": "Audience Profile",
+    "influencersSelected": "Influencers Selected",
+    "inviteMore": "Invite More",
+    "typeInfSearchPh": "TYPE A INFLUENCER NAME TO SEARCH",
+    "profileName" : "Profile Name",
+    "ageGroup" : "Age Group",
+    "gender" : "Gender",
+    "ethnicity" : "Ethnicity",
+    "keywords" : "Keywords / Tag",
+    "brandAffinity": "Brand Affinity",
+    "nameOfTheInf": "Name of the Influencer",
+    "contact": "Contact",
+    "action": "Action",
+    "stage": "Stage",
+    "channels": "Channels",
+    "-":"-"
+  },
+  "languageItems": [
+    {
+      "label": "EN"
+    }, {
+      "label": "JP"
+    }
+  ],
+  "noResultsFound":"No Results Found",
+  "campaignObjective": {
+    "saveNewTem": {
+      "title": "Enter a Template Name to Save the Terms :",
+      "placeholder": "Type a unique template name here",
+      "saveTemplate": "Save Template"
+    },
+    "addDueDate": "Add Due Date",
+    "termType": "Term Type",
+    "commercial": "Commercial",
+    "requirement": "Requirement",
+    "budget": "Budget",
+    "description": "Description",
+    "clauseNamePla": "Enter a Clause Name",
+    "newProposedDate": "Proposed Due Date",
+    "acceptDate": "Accept Date",
+    "proSolI": "Proposed Solution / Idea",
+    "accTheTerms": "accepted the term(s).",
+    "acceptTerms": "Accept Terms",
+    "startConAddCom": "Start a conversation. Add a comment",
+    "startConAddComPlaH": "Write a comment here to ask for more clarification.....",
+    "startCon": "Start a conversation",
+    "activityLog": "Activity Log",
+    "send": "SEND",
+    "done": "DONE",
+    "fieldErrorMessage":"Mandatory Field",
+    "noClauseToSave":"No clauses to save as Template",
+    "savedSuccessfully":"Saved Successfully",
+    "succesfullyDeleted":"Successfully deleted",
+    "clauseNotReviewedYet":"Clause(s) is not reviewed yet",
+    "sentForReviewSuccessfully":"Sent For review Successfully",
+    "allClausesAreReviewed":"All clauses are reviewed",
+    "clausesAreNotAcceptedByBothTheParties":"Clauses are not accepted by both the parties",
+    "errorOccured":"Error Occured",
+    "addClause":"Add Clause",
+    "budgetError": "Minimum budget: $1.00 and Maximum budget: $10M",
+    "info": "Info",
+    "success": "Success",
+    "error": "Error",
+    "campaignEngagedMsg": "This Campaign is Already Activated."
+  },
+  "profileMenu": {
+    "logout": "Sign Out"
+  },
+  "sealDeal": {
+    "letReviewsd": "Let's review everything & seal the deal.",
+    "compAndagr": "Check what has been completed so far & agree to the terms.",
+    "campSetD": "Campaign setup Done",
+    "campaign": "Campaign",
+    "created": "Created",
+    "influencer": "Influencer",
+    "identified": "Identified",
+    "on": "on",
+    "infInvt": "Influencers Invited",
+    "infConAndDis": "Influencer Contacted and Discussion Started",
+    "objectives": "Objectives",
+    "defined": "Defined",
+    "infAgr": "Influencer Agreed",
+    "ageAgr": "Agency Agreed",
+    "agencyConfirmed": "Agency Confirmed",
+    "Terms": "Terms",
+    "Agreed": "Agreed",
+    "rewStaOfwork": "Review Statement of Work ( SoW )",
+    "pleaseRewTer": "Please Click on Review Terms to accept the Clauses and Download the SOW",
+    "preambleTemToGen": "You've not yet uploaded any campaign preamble template to generate SoW.",
+    "youAccTerm": "You have accepted the terms clauses on",
+    "infRewTer": "Please wait till agency uploads the Preamble template document.",
+    "at": "at",
+    "PleaSealD": "Please seal the deal now",
+    "sealDeal": "Seal The Deal",
+    "hurrah": "Hurrah !",
+    "youCampAct": "Your campaign is now activated !!",
+    "readyToInf": "Ready to Influence?",
+    "readyTodec": "Be creative. Send your post content ideas to the Brand/Agency manager for review.",
+    "infSealDealMsg": "Campaign gets acctivated once agency seal's the deal",
+    "gotoCamp": "Go to Campaign",
+    "StatOfWork": "Statement of Work",
+    "campaignName": "Campaign Name",
+    "date": "DATE",
+    "clause": "Clause",
+    "download": "Download",
+    "agrTc": "I agree to the T&Cs mentioned above.",
+    "accept": "Accept",
+    "plsRevTc": "Please Review terms and conditions",
+    "rewTerms": "Review Terms",
+    "campaignCreatedOn": "Campaign Created on",
+    "timeline": "Timeline",
+    "clauseType": "Clause Type",
+    "clauseBudget": "Clause Budget",
+    "description": "Description",
+    "campaignSummary": "Campaign summary",
+    "campaignScope": "Campaign scope",
+    "audienceProfile": "Audience profile",
+    "companyBrandName" : "Company/Brand name",
+    "influenceName": "Influencer name",
+    "duration": "Duration",
+    "objective": "Objective",
+    "budget": "Budget",
+    "info": "Info",
+    "success": "Success",
+    "error": "Error",
+    "reviewTermsNotAcc": "Waiting for influencer to Seal Deal",
+    "audienceProfileName": "Audience profile Name",
+    "ageGroup": "Age Group",
+    "gender" : "Gender",
+    "ethnicity" : "Ethnicity",
+    "keywords" : "Keywords / Tag",
+    "keywordsHeader": "Keywords & Hashtags to be used in the Campaign",
+    "brandAffinity": "Brand Affinity",
+    "shareContent": "Share Content",
+    "waitingForAgencySd": "Wait for the agency to seal deal to share the content",
+    "waitingForAgencyAT": "Wait for the agency to accept review terms",
+    "colon": ":"
+  },
+  "campaignLinks": {
+    "shareTheLinks": "Share campaign post links here",
+    "camLinksVisToAgency": "Your campaign links will be visible to the Agency.",
+    "yourCamLinks": "Your campaign links here",
+    "HurrahYourCamWentLive": "Hurrah ! Your campaign went live on the following links.",
+    "info": "Info",
+    "success": "Success",
+    "error": "Error",
+    "submittedSuccessfully": "Submitted Successfully.",
+    "networks": {
+      "1": "YouTube Video Link :",
+      "2": "Instagram Post Link :",
+      "5": "Twitter Post Link :"
+    }
+  },
+  "engagementFlow": {
+    "BackToCon": "Back To Conversations",
+    "influencer": "Influencer",
+    "category": "Category",
+    "timeline": "Timeline",
+    "GeoReg": "Target Geography",
+    "agByBothPar": "Agreed by both parties",
+    "AwaitInfAcc": "Awaiting Influencer Acceptance",
+    "AwaitAgenAcc": "Awaiting Agency Acceptance",
+    "clauses": "clauses",
+    "info": "Info",
+    "success": "Success",
+    "error": "Error",
+    "campaignEngagedMsg": "This Campaign is Already Activated."
+  },
+  "footerMenu": {
+    "privacyPolicy":"Privacy Policy",
+    "terms":"Terms",
+    "eula":"EULA",
+    "gpToLogin":"GO TO LOGIN"
+  },
+ "docsPdfSupp": "Only docs / pdf supported",
+ "upto2mb": "Upto 2 MB",
+ "uploadFileMust": "Uploaded file must be in",
+ "docsPdfUpTo2mb": "docx / pdf upto 2 MB only",
+ "jpgPngbelow1MB": ".jpeg / .jpg / .png 256 x 256 & below 1 MB",
+ "xlxs2MB": "xlxs below 2 MB",
+ "companyValidationMessage": "This Company is Already Existing for this agency",
+ "errorMsg": "Somthing went wrong please try again",
+ "invalidCatErrorMsg": "Invalid category, Please verify",
+ "noRowsFoundErrorMsg": "No Rows Found!",
+ "supportedFiles": "Supported Files",
+ "supportedFilesType": ".xls / .xlsx (under 2 MB only)",
+ "months": {
+   "1": "Jan",
+   "2": "Feb",
+   "3": "Mar",
+   "4": "Apr",
+   "5": "May",
+   "6": "Jun",
+   "7": "Jul",
+   "8": "Aug",
+   "9": "Sep",
+   "10": "Oct",
+   "11": "Nov",
+   "12": "Dec"
+ },
+ "uploadPreambleTemplate": "Upload Preamble Template",
+ "uploadPreTemDoc": "You've not yet uploaded the preamble template document to generate the Statement of Work.",
+ "temLastUpl": "Template last uploaded on",
+ "shareCollateral": {
+   "header": "Securely share files or links with the influencer",
+   "supportedFileType": "Supported files types",
+   "fileTypes": "png, .jpg, .pdf, .psd, .ai, .avi, .mp4, .zip, .rar, .docx, .xls, .ppt, .mp3, .wav",
+   "uploadedSuccess": "Files uploaded successfully",
+   "nameExist": "File already exists",
+   "fileUploadError": "Uploaded Files are not Supported",
+   "fileErrorMsg": "Uploaded Files are not Supported, Upload supported files with below 5 MB",
+   "supportedFileSize": "Supported files Size",
+   "fileSize": "5 MB",
+   "uploadedFiles": "Uploaded Files",
+   "uploadError": "Somthing went wrong please try again",
+   "sharedFiles": "Shared Files",
+   "dragAndDrop": "Drag and drop",
+   "filesHereToUpload": "files here to upload",
+   "or": "OR",
+   "browse": "Browse",
+   "filterBy": "Filter By :",
+   "by": "By :",
+   "noData": "No Data",
+   "approveContentForPublishing": "Approve Content for publishing",
+   "contentSharedwithBrand": "Content Shared with Brand",
+   "campaignAsset": "Campaign Asset",
+   "uploadedBy": "Uploaded By",
+   "uploadedOn": "Uploaded on",
+   "sharedBy": "Shared By",
+   "sharedOn": "Shared on",
+   "at": "at",
+   "filename": "Filename",
+   "download": "Download",
+   "remarksComments": "Remarks / Comments",
+   "remarksCommentsPh": "Type your remarks / comments here",
+   "deletePermanently": "Delete Permanently",
+   "sendForRevision": "Send for Revision",
+   "approve": "Approve",
+   "save": "Save",
+   "info": "Info",
+   "success": "Success",
+   "error": "Error",
+   "commentsHistory": "Comments History :",
+   "filterByPla": "Select",
+   "allStatus": "All Status",
+   "done": "Done",
+   "status": "Status",
+   "searchPlaceholder": "Type a name to search"
+ },
+ "campaignDetailMessages": {
+  "inviteMoreMsg": "This Campaign is Already Activated. Currently not accepting any more invitations"
+ },
+ "currency": {
+   "usd": "USD"
+ },
+
+ "loaderMsg": {
+   "manageCampaign":"Please wait while we fetch campaigns",
+   "manageCompany":"Please wait while fetch companies",
+   "exploreInfluencer":"Please wait while we handpick some awesome influencers for you",
+   "selectInfluencer":"Please wait while we handpick some awesome influencers for your campaign",
+   "campaignDetails":"Please wait while we fetch engaged influencers",
+   "companyProfile": "Please wait while fetch details"
+ },
+ "defaultInfProfile": {
+   "header": "Please Complete Your Profile",
+   "uploadProfile": "Upload Picture",
+   "uploadProfilePicture": "Upload Profile Picture",
+   "provideAllFields": "Please provide the values in all mandatory fields",
+   "emailId": { 
+     "label" : "Email ID:",
+     "placeholder": ""
+   },
+   "firstName": { 
+    "label" : "First Name:",
+    "placeholder": ""
+  },
+  "lastName": { 
+    "label" : "Last Name:",
+    "placeholder": ""
+  },
+  "dateOfBirth": { 
+    "label" : "Date of Birth:",
+    "placeholder": "DD/MM/YYYY"
+  },
+  "country": { 
+    "label" : "Country:",
+    "placeholder": "Select"
+  },
+  "category": { 
+    "label" : "Category:",
+    "placeholder": "Select",
+    "optLabel": "Select up to 3"
+  },
+   "linksOfSMA": "Links of your Social Media accounts",
+   "done": "Done"
+ },
+ "exploreInfExport": {
+  "export": "Export",
+ "fileName": { 
+   "label" : "File Name:",
+   "placeholder": "Enter file name"
+ },
+ "columns": { 
+  "label" : "Select Columns",
+  "placeholder": "Select Columns"
+}
+},
+"saveList": {
+  "header": "Add Selected Influencers to the following list",
+  "listName": {
+    "label" : "Create a New List",
+    "placeholder": "Enter List Name"
+  },
+  "saveList": "Save List"
+}
+}

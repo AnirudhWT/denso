@@ -1,0 +1,43 @@
+<div class="p-d-flex">
+    <!-- Left Sidenav -->
+    <app-sliding-side-nav [scrollingContent]="processList" heading="Process Steps & Docs" orientation='left'>
+        <ng-template #processList>
+            <p-tree (onNodeExpand)="loadNode($event)" [value]="getNodes()"></p-tree>
+        </ng-template>
+    </app-sliding-side-nav>
+    <div class="main-content">
+
+        <!-- Main Content (Middle)  -->
+        <div class="main-content-area">
+            <div class="heading">
+                text
+            </div>
+            <div>
+               <div *ngIf="checkActiveView('data') == true"> <app-data-table ></app-data-table></div>
+               <div *ngIf="checkActiveView('process') == true"> <app-process-flow [allProcess]="globalServices.getAllProcess()"></app-process-flow></div>
+            </div>
+        </div>
+
+        <!-- View Selection Buttons -->
+        <div class="p-d-flex">
+            <div *ngFor="let product of viewButtons">
+                <button (click)="changeView(product.name)" class="cursor {{ product.selected == true ? 'selected-tab' : 'tab-btn'}}" >
+                    <div class="bottom-tab">
+                        <i class="fas fa-caret-down"></i>
+                        <div class="tab-text">
+                            {{product.name}}
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Right Side nav -->
+    <app-sliding-side-nav [scrollingContent]="documentsList" heading="Document Library" orientation='right'>
+        <ng-template #documentsList>
+            <app-document-library></app-document-library>
+        </ng-template>
+    </app-sliding-side-nav>
+</div>

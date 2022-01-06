@@ -1,0 +1,43 @@
+// Data Table
+.table-column-heading {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #ffffff;
+}
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-sorter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    i {
+        font-size: 0.75vw;
+        color: #ffffff;
+    }
+}
+.row-data {
+    font-family: "Helvetica Neue LT Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.83vw;
+    line-height: 1.71vw;
+    color: #748094;
+}
+
+:host ::ng-deep {
+    .p-datatable .p-datatable-thead > tr > th {
+        background-color: #141e4f;
+        padding: 0.52vw;
+        border-left: 1px solid #E3E8EF;
+        border-right: 1px solid #E3E8EF;
+    }
+    .p-datatable .p-datatable-tbody > tr:nth-child(even) {
+        background-color: #eef2f7;
+    }
+}

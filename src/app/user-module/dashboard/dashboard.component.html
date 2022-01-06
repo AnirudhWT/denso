@@ -1,0 +1,112 @@
+<div class="p-grid dashboard-box">
+
+    <!-- Heading -->
+    <div class="p-col-6">
+        <div class="heading">
+            <i class="fas fa-cube"></i>
+            Document Ingestion
+        </div>
+    </div>
+
+    <!-- New Product Button -->
+    <div class="p-col-6 p-text-right">
+        <button class="cursor" (click)="addEntity()">
+            <div class="add-process ellipsis-text">
+                <i class="fas fa-folder-plus "></i>
+                <span class="seperater">|</span>
+                <div>
+                    New {{globalServices.getSelectedOption().label}}
+                </div>
+            </div>
+        </button>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="p-col-12">
+        <div class="p-grid">
+            <div class="p-col-2 p-d-flex p-jc-center" *ngFor="let item of globalServices.getFilterOptions()">
+                <div class="stat-box {{ item.isActive ? 'selected-stat' : 'cursor'}} "
+                    (click)="liveDashboardServices.setoption(item.key)">
+                    <div class="stat-number">{{item.count}}</div>
+                    <div class="stat-detail">
+                        <div class="p-pl-3">
+                            <i class="{{item.icon}} {{ item.isActive ? 'iconic' : ''}}"></i>
+                        </div>
+                        <div class="p-px-3">
+                            {{item.label}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Complete Documents -->
+
+    <div class="p-col-6 ">
+        <app-list-viewer [scrollingContent]="completeList" labelheading="{{globalServices.getSelectedOption().label}}"
+            [status]="'Complete'" [showPallets]=false listHeight="25.78vw" headingIcon="far fa-check-circle">
+            <ng-template #completeList>
+                <div class="scroll">
+                    <div (click)="goToProductLine()" *ngFor="let item of liveDashboardServices.getCurrentProductData()">
+                        <div *ngIf="item.completed == true" class="process-brief-box">
+                            <div class="name-created-date">
+                                <div>
+                                    <i class="fas fa-outdent"></i>
+                                </div>
+                                <div class="product-name-creatdate">
+                                    <span class="process-name">Prodcut Line 1</span>
+                                    <span>Created On : 12-11-2021</span>
+                                </div>
+
+                            </div>
+                            <div class="category-doc-num">
+                                <span>Total Documents : 8</span>
+                                <span>Doc. Category: Machine</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </app-list-viewer>
+    </div>
+
+    <!-- Work In Progress Documents -->
+
+    <div class="p-col-6">
+        <app-list-viewer [scrollingContent]="wipList" labelheading="{{globalServices.getSelectedOption().label}}"
+            [status]="'WIP'" [showPallets]=true listHeight="25.78vw" headingIcon="fas fa-ellipsis-h">
+            <ng-template #wipList>
+                <div class="scroll">
+                    <div *ngFor="let item of liveDashboardServices.getCurrentProductData()">
+                        <div *ngIf="item.completed == false" class="process-brief-box">
+                            <div class="name-created-date">
+                                <div>
+                                    <i class="fas fa-outdent"></i>
+                                </div>
+                                <div class="product-name-creatdate">
+                                    <span class="process-name">Prodcut Line 1</span>
+                                    <span>Created On : 12-11-2021</span>
+                                </div>
+                            </div>
+                            <div class="category-doc-num">
+                                <circle-progress [percent]=80 [radius]=20 [backgroundPadding]=7 [outerStrokeWidth]=4
+                                    [innerStrokeWidth]=4 [space]=-4 [outerStrokeColor]="'#82D097'"
+                                    [innerStrokeColor]="'#EE8885'" [showBackground]=true [title]="['']"
+                                    [titleFontSize]="'12'" [subtitleFontSize]="'12'" [animateTitle]=false
+                                    [showUnits]=false [clockwise]=false [animationDuration]=1000
+                                    (subtitleFormat)="getper(60)">
+                                </circle-progress>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </app-list-viewer>
+    </div>
+    <!-- Upload Machine Popup -->
+    <app-add-new-machine-doc 
+    (togglePopup)="togglePopup()" 
+    [openPopup]="machineDocUploadPopup">
+    </app-add-new-machine-doc>
+</div>

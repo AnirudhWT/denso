@@ -1,0 +1,165 @@
+<div class="p-grid">
+    <div class="p-col-6 signin-box p-d-flex p-jc-center p-ai-center">
+
+        <div class="p-grid p-d-flex p-jc-center p-ai-center">
+            <div class="p-col-5">
+                <div class="p-d-flex p-flex-column p-jc-center p-ai-center" style="height: inherit;">
+                    <div class="logo-container">
+                        <img width="100%" src="../../../../assets/images/registration/logo.svg" alt="logo">
+                        <img width="50%" src="../../../../assets/images/registration/sub-logo.svg" alt="sub-logo">
+                    </div>
+                    <div class="getin-touch">
+                        Get in touch !
+                    </div>
+                    <div class="user-instruction">
+                        Our expert will reach out to your shortly
+                    </div>
+                    <form [formGroup]="signUpForm" novalidate (ngSubmit)="submitSignIn()">
+                        <div class="p-grid">
+                            <!-- First name -->
+                            <div class="p-col-6 p-py-0 p-pl-0 p-pr-4">
+                                <div>
+                                    <label class="form-field-label">Firstname
+                                    </label>
+
+                                </div>
+                                <input class="default-input" formControlName="firstname" placeholder="Your First Name"
+                                    type="text" pInputText [ngClass]="submitted ?'ng-dirty':''" />
+                                <div *ngIf="submitted && signUpForm.controls['firstname'].invalid || signUpForm.controls['firstname'].invalid && (signUpForm.controls['firstname'].dirty || signUpForm.controls['firstname'].touched)"
+                                    class="p-error">
+                                    <div *ngIf="signUpForm.controls['firstname'].errors?.required">
+
+                                    </div>
+                                    <div *ngIf="signUpForm.controls['firstname'].errors?.email">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Last name -->
+                            <div class="p-col-6 p-p-0">
+                                <div>
+                                    <label class="form-field-label">Lastname
+                                    </label>
+
+                                </div>
+                                <input class="default-input" placeholder="Your Last Name" pInputText
+                                    formControlName="lastname" type="text" [ngClass]="submitted ?'ng-dirty':''" />
+                                <div *ngIf="submitted && signUpForm.controls['lastname'].invalid || signUpForm.controls['lastname'].invalid && (signUpForm.controls['lastname'].dirty || signUpForm.controls['lastname'].touched)"
+                                    class="p-error">
+                                    <div *ngIf="signUpForm.controls['lastname'].errors?.required">
+
+                                    </div>
+                                    <div
+                                        *ngIf="signUpForm.controls['lastname'].value && signUpForm.controls['lastname'].errors && signUpForm.controls['lastname'].errors.notValid">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Email -->
+                            <div class="p-col-12 p-p-0">
+                                <div>
+                                    <label class="form-field-label">Email
+                                    </label>
+
+                                </div>
+                                <input class="default-input" formControlName="email" placeholder="Your Email"
+                                    type="email" pInputText [ngClass]="submitted ?'ng-dirty':''" />
+                                <div *ngIf="submitted && signUpForm.controls['email'].invalid || signUpForm.controls['email'].invalid && (signUpForm.controls['email'].dirty || signUpForm.controls['email'].touched)"
+                                    class="p-error">
+                                    <div *ngIf="signUpForm.controls['email'].errors?.required">
+
+                                    </div>
+                                    <div *ngIf="signUpForm.controls['email'].errors?.email">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- phone -->
+                            <div class="p-col-12 p-p-0">
+                                <div>
+                                    <label class="form-field-label">Phone Number
+                                    </label>
+
+                                </div>
+                                <input class="default-input" formControlName="phone" placeholder="Your phone" type="tel"
+                                    pInputText [ngClass]="submitted ?'ng-dirty':''"
+                                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+                                <div *ngIf="submitted && signUpForm.controls['phone'].invalid || signUpForm.controls['phone'].invalid && (signUpForm.controls['phone'].dirty || signUpForm.controls['phone'].touched)"
+                                    class="p-error">
+                                    <div *ngIf="signUpForm.controls['phone'].errors?.required">
+
+                                    </div>
+                                    <div *ngIf="signUpForm.controls['phone'].errors?.phone">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Company name -->
+                            <div class="p-col-12 p-p-0">
+                                <div>
+                                    <label class="form-field-label">Company Name
+                                    </label>
+
+                                </div>
+                                <input class="default-input" placeholder="Your Last Name" pInputText
+                                    formControlName="companyname" type="text" [ngClass]="submitted ?'ng-dirty':''" />
+                                <div *ngIf="submitted && signUpForm.controls['companyname'].invalid || signUpForm.controls['companyname'].invalid && (signUpForm.controls['companyname'].dirty || signUpForm.controls['companyname'].touched)"
+                                    class="p-error">
+                                    <div *ngIf="signUpForm.controls['companyname'].errors?.required">
+
+                                    </div>
+                                    <div
+                                        *ngIf="signUpForm.controls['companyname'].value && signUpForm.controls['companyname'].errors && signUpForm.controls['companyname'].errors.notValid">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Designation -->
+                            <div class="p-col-12 p-p-0">
+                                <div>
+                                    <label class="form-field-label">What best describes your job function ?
+                                    </label>
+
+                                </div>
+                                <p-dropdown class="select-channel" [ngClass]="submitted ?'ng-dirty':''"
+                                    formControlName="id" [options]="roles" placeholder="Your job function"
+                                    [(ngModel)]="selectedJob" optionDisabled="disabled" optionLabel="name"
+                                    [filter]="true" optionValue="name" filterBy="name"
+                                    (onChange)="handleJobSelection($event)">
+                                    <ng-template pTemplate="selectedItem">
+                                        <div class="country-item country-item-value p-d-flex" *ngIf="selectedJob">
+                                            <div>{{selectedJob?.name}}</div>
+                                        </div>
+                                    </ng-template>
+                                    <ng-template let-country pTemplate="item">
+                                        <div class="country-item p-d-flex">
+
+                                            <div>{{country.name}}</div>
+                                        </div>
+                                    </ng-template>
+                                </p-dropdown>
+                            </div>
+
+
+                            <div class="p-col-12 p-p-0">
+                                <button pButton pRipple type="submit" class="p-button-raised login-fields-btn">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="no-account-text">
+                        Already have an account ? 
+                        <span class="get-in-touch">
+                            <a class="cursor" [routerLink]="['/']">Sign in .</a></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="p-col-6 signin-image">
+        test
+    </div>
+</div>

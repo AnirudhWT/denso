@@ -1,0 +1,22 @@
+<p-fileUpload #fubSOW [customUpload]="true" name="file[]" url="" [maxFileSize]="2000000" [auto]="true"
+    accept="application/msexcel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    (uploadHandler)="uploadFile($event, fubSOW)" chooseLabel="Browse" chooseIcon="" uploadIcon=""
+    [styleClass]="'p-fileupload-cl'">
+
+    <ng-template pTemplate="content" let-files>
+        <i class="fas fa-cloud-upload-alt uploadicon"></i>
+        <br />
+        <span class="upload-info">Drag and drop a file from document library
+            or local storage to upload</span>
+    </ng-template>
+</p-fileUpload>
+<div class=" center-aligned-text {{uploadedFile ? 'showfilename' :'hidefilename'}}">
+    <div class="p-d-flex p-ai-center p-jc-center ">
+        <span class="uploadedFilename">{{uploadedFile?.name}}</span>
+        <i class="fas fa-minus-circle remove-icon cursor" (click)="removeFile()"></i>
+    </div>
+    <button class="confirm-upload ">
+        <i class="far fa-check-circle confirm-icon"></i>
+        Confirm Upload
+    </button>
+</div>

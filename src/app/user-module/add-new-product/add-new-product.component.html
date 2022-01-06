@@ -1,0 +1,76 @@
+<div class="p-grid dashboard-box">
+    <!-- Heading -->
+    <div class="p-col-12">
+        <div class="heading">
+            <i class="pi pi-th-large"></i>
+            New Product Line
+        </div>
+    </div>
+
+    <div class="p-col-12 p-d-flex p-jc-center">
+        <div class="p-col-6 add-newprodcut-container">
+            <form [formGroup]="addproduct" novalidate (ngSubmit)="submitAddProduct()">
+                <div class="login-fields-username">
+                    <div>
+                        <label class="form-field-label">
+                            1. Enter Product Line Name :
+                        </label>
+
+                    </div>
+                    <input class="default-input" formControlName="name" placeholder="Type a product line name here"
+                        type="text" [ngClass]="submitted ?'ng-dirty':''" />
+                    <div *ngIf="submitted && addproduct.controls['name'].invalid || addproduct.controls['name'].invalid && (addproduct.controls['name'].dirty || addproduct.controls['name'].touched)"
+                        class="p-error">
+                        <div *ngIf="addproduct.controls['name'].errors?.required">
+                            Error
+                        </div>
+                    </div>
+                </div>
+                <div class="login-fields-username">
+                    <div>
+                        <label class="form-field-label">
+                            2. Enter Description :
+                        </label>
+
+                    </div>
+                    <textarea class="text-area-field borderless-textArea"
+                        placeholder="Type your new product line description here ( optional )"
+                        formControlName="description" [ngClass]="submitted ?'ng-dirty':''" [rows]="1" [cols]="30"
+                        pInputTextarea></textarea>
+                    <div *ngIf="submitted && addproduct.controls['description'].invalid || addproduct.controls['description'].invalid && (addproduct.controls['description'].dirty || addproduct.controls['description'].touched)"
+                        class="p-error">
+                        Error
+                    </div>
+                </div>
+                <div class="login-fields-username">
+                    <div>
+                        <label class="form-field-label">
+                            3. Upload the Process System Diagram :
+                        </label>
+                    </div>
+                    <div class="upload-container">
+                            <p-fileUpload #fubSOW [customUpload]="true" name="file[]" url="" [maxFileSize]="2000000"
+                                [auto]="true"
+                                accept="application/msexcel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                                (uploadHandler)="uploadFile($event, fubSOW)" chooseLabel="or click here to Browse" chooseIcon=""
+                                uploadIcon="" [styleClass]="'p-fileupload-cl'">
+
+                                <ng-template pTemplate="content" let-files>
+                                    <i class="fas fa-cloud-upload-alt uploadicon"></i>
+                                    
+                                    <span class="upload-info">Drag and drop your file here to upload & start data ingestion
+                                    </span>
+                                </ng-template>
+                            </p-fileUpload>
+                    </div>
+                </div>
+                <div class="p-text-right">
+                    <button (click)="submitAddProduct()">
+                        Create Product line
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,26 @@
+<div class="p-grid p-d-flex p-ai-center">
+    <div class="p-col-6 p-p-3">
+        <i class="pi pi-bars"></i>
+    </div>
+    <div class="p-col-6 p-px-3 p-pt-3 p-d-flex p-ai-center p-jc-end">
+        <i class="pi pi-bell notification-icon"></i>
+        <p-dropdown (onChange)="detectUserActivity($event)" 
+                    [options]="countries" 
+                    [(ngModel)]="selectedCountry" 
+                    optionLabel="name"
+                    placeholder="Select a Country">
+            <ng-template pTemplate="selectedItem">
+                <div class="country-item country-item-value" *ngIf="selectedCountry">
+                    <i class="{{selectedCountry.icon}}"></i>
+                    <div>{{selectedCountry.name}}</div>
+                </div>
+            </ng-template>
+            <ng-template let-country pTemplate="item">
+                <div class="country-item">
+                    <i class="{{country.icon}}"></i>
+                    <div>{{country.name}}</div>
+                </div>
+            </ng-template>
+        </p-dropdown>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+.align-space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:host ::ng-deep {
+    .p-accordion-header-link {
+        background-color: #e3e8ef !important;
+        font-family: "Helvetica Neue LT Pro";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.72vw;
+        color: #2f3747;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .p-accordion-toggle-icon {
+        display: none;
+    }
+    .p-accordion-content {
+        background-color: #e3e8ef;
+        font-family: "Helvetica Neue LT Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.72vw;
+        line-height: 1.71vw;
+        color: #748094;
+    }
+}

@@ -1,0 +1,86 @@
+.main-content {
+    width: -webkit-fill-available;
+}
+.main-content-area {
+    height: 75.5vh;
+    .heading {
+        padding: 0.4vw 0;
+        font-family: "Helvetica Neue LT Pro";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.83vw;
+        line-height: 1.71vw;
+        color: #141e4f;
+        background: #cdd5df;
+    }
+}
+
+// Bottom Tab Buttons
+.tab-btn {
+    border: none;
+    padding: 0.72vw 2.2vw;
+    .bottom-tab {
+        position: relative;
+        i {
+            display: none;
+        }
+        .tab-text {
+            font-family: "Helvetica Neue LT Pro";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 0.83vw;
+            line-height: 1.71vw;
+            color: #141e4f;
+        }
+    }
+}
+.selected-tab {
+    border: none;
+    padding: 0.72vw 2.2vw;
+    background-color: #141e4f;
+    .bottom-tab {
+        position: relative;
+        i {
+            color: #ffffff;
+            position: absolute;
+            top: -1.2vw;
+            left: 50%;
+            display: block;
+        }
+        .tab-text {
+            font-family: "Helvetica Neue LT Pro";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 0.83vw;
+            line-height: 1.71vw;
+            color: #141e4f;
+            color: #ffffff;
+        }
+    }
+}
+
+:host ::ng-deep {
+    .p-tree-wrapper {
+        background-color: #e3e8ef;
+    }
+    .p-treenode-label {
+        font-family: "Helvetica Neue LT Pro";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.72vw;
+        color: #748094;
+    }
+    .p-tree-toggler-icon {
+        font-size: 0.72vw;
+        line-height: 1.71vw;
+        color: #748094;
+    }
+    .p-tree {
+        padding: 0;
+    }
+    .p-tree-toggler {
+        margin: 0 !important;
+    }
+
+}
+
